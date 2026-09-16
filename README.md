@@ -100,6 +100,11 @@ Están aparte, en `nuevos-eventos-fixes/`, porque son de
   Va `owner = root`.
 - **`events/piratini.txt`**: usa `c:PNI = { exists = yes ... }`, pero si Piratini no existe esa
   referencia ya falla. Va `exists = c:PNI` y después `c:PNI ?= { ... }`.
+- **`common/laws/historical_economic_system.txt`**: el modificador está escrito
+  `ountry_production_tech_research_speed_mult`, sin la `c`. No existe, así que Agrarianismo y
+  Economía Extractiva no aplican ese efecto.
+- **`common/laws/historical_slavery.txt`**: usa `building_group_bg_light_industry_throughput_mult`,
+  y el nombre válido termina en `_add`. Trata de Esclavos y Esclavitud Heredada pierden ese efecto.
 
 ## Compatch con Better Politics Mod
 
@@ -109,7 +114,8 @@ completa de Rosas nunca dispara**, ni la Mazorca, ni los bloqueos, ni los salone
 saladeros, ni los eventos de Piratini.
 
 El compatch amplía esas nueve condiciones a `law_autocracy`, `law_military_junta` y
-`law_oligarchy`.
+`law_oligarchy`. **Verificado en partida**: con BPM y el compatch, en julio de 1838 la journal
+entry de la era de Rosas está activa y el compatch no agrega ni un error propio al log.
 
 Además, con BPM conviene cargar **Argentina nuevos eventos antes que BPM**: el mod redefine nueve
 leyes que BPM también redefine (agrarianismo, latifundios, arrendatarios, trata y esclavitud
