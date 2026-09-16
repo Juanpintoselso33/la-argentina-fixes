@@ -1,0 +1,30 @@
+# la Argentina define dos ideologías propias, ideology_autonomist e ideology_pampas_expansionism,
+# con sus posturas ante cada grupo de leyes, pero ningún evento, personaje ni grupo las recibe:
+# quedan escritas y muertas. Acá se las damos a quien corresponde por su contenido.
+#   - autonomista: es la postura de los caudillos federales (caudillos locales, arrendatarios,
+#     impuestos al consumo), así que va a los terratenientes de los países platenses.
+#   - expansionismo pampeano: empuja la colonización de frontera y la inmigración abierta,
+#     así que va a las fuerzas armadas de la Confederación.
+on_game_started = {
+	effect = {
+		every_country = {
+			limit = {
+				country_has_primary_culture = cu:platinean
+			}
+			ig:ig_landowners ?= {
+				if = {
+					limit = { NOT = { has_ideology = ideology:ideology_autonomist } }
+					add_ideology = ideology_autonomist
+				}
+			}
+		}
+		c:ARG ?= {
+			ig:ig_armed_forces ?= {
+				if = {
+					limit = { NOT = { has_ideology = ideology:ideology_pampas_expansionism } }
+					add_ideology = ideology_pampas_expansionism
+				}
+			}
+		}
+	}
+}

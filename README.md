@@ -84,7 +84,18 @@ viejo.
 `STATE_SANTIAGO_DEL_ESTERO` es el único estado del mod sin ese campo. Se le pone
 `building_subsistence_farm`, igual que sus vecinos.
 
-### 7. Textos faltantes
+### 7. Dos ideologías propias que no las recibe nadie
+
+El mod define `ideology_autonomist` e `ideology_pampas_expansionism`, con sus posturas ante cada
+grupo de leyes, pero ningún evento, personaje ni grupo de interés las recibe: quedan escritas y
+muertas.
+
+**Arreglo:** `common/on_actions/zz_fix_ideologias_huerfanas.txt` se las da a quien corresponde por
+su propio contenido. La autonomista, que apoya caudillos locales y arrendatarios, va a los
+terratenientes de los países de cultura platense. La expansionista, que empuja la colonización de
+frontera y la inmigración abierta, va a las fuerzas armadas de la Confederación.
+
+### 8. Textos faltantes
 
 Sin traducción inglesa: los rasgos de idioma `language_chono`, `language_kawesqar` y
 `language_selknam`, la religión `slave` y la journal entry `random_character`. Se ven como claves
