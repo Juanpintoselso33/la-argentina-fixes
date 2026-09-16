@@ -1,0 +1,10 @@
+--- original/map_data/state_regions/07_south_america.txt
++++ corregido/map_data/state_regions/07_south_america.txt
+@@ -993,6 +993,7 @@
+ }
+ STATE_SANTIAGO_DEL_ESTERO = {
+     id = 866
++    subsistence_building = "building_subsistence_farm"
+     provinces = { "xB00050" "x4A2296" "xC37562" "xECF85F" "x517902" "x5AB63C" "x07D26B" "xEE670B" "xC1E078" "xD84595" "xBB1FAD" "xF4329F" "xB2711B" "xC7FF96" "x42AED6" "x9A3B4F" "x476F91" "x76C8E9" "xE0C49E" "x98A799" "x26CE16" "x0E777E" "x5040D0" "xD041D0" "x1DFDAC" "xBFE416" "x8B722D" "xB315A7" }
+     city = "x4A2296"
+     farm = "xC37562"

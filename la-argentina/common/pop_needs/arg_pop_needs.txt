@@ -1,0 +1,29 @@
+﻿TRY_INJECT:popneed_luxury_drinks = {
+	default = tea
+
+	obsession_demand_min = 0.75
+	obsession_demand_mult = 1.75
+	prestige_goods_demand_increase = 0.75
+
+	entry = {
+		goods = yerba_mate
+
+		weight = 0.95
+		max_supply_share = 0.75
+		min_supply_share = 0.0
+	}
+
+}
+TRY_INJECT:popneed_stimulants = {
+	default = sugar
+
+	entry = {
+		goods = yerba_mate
+
+		weight = 0.95
+		max_supply_share = 0.75
+		min_supply_share = 0.0
+	}
+
+
+}

@@ -1,0 +1,176 @@
+﻿namespace = mapuche_malon
+
+mapuche_malon.1 = {
+    type = country_event
+    placement = ROOT
+
+    title  = mapuche_malon.1.t
+    desc   = mapuche_malon.1.d
+    flavor = mapuche_malon.1.f
+
+    duration = 3
+    cooldown = { months = 3 }   # minimum 3 months between this event
+
+    event_image = {
+        video = "southamerica_war_civilians"
+    }
+
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+    icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+    trigger = {
+        # Only Argentina / Great Argentina / Platine
+        OR = {
+            c:ARG ?= this
+            c:Great_ARG ?= this
+            c:PLT ?= this
+        }
+
+        # Mapuche must exist and not be your subject
+        c:PAT = {
+            exists = yes
+            NOT = { is_subject_of = ROOT }
+        }
+
+        # You must have at least one state touching them
+        any_scope_state = {
+            owner = ROOT
+            any_neighbouring_state = { owner = c:PAT }
+        }
+    }
+
+    immediate = {
+        # Pick the raided frontier state
+        random_scope_state = {
+            limit = {
+                owner = ROOT
+                any_neighbouring_state = { owner = c:PAT }
+            }
+            save_scope_as = malon_state
+        }
+    }
+
+    # Option A – Minimal patrols (cheap, weak defence)
+    option = {
+        name = mapuche_malon.1.a
+        default_option = yes
+
+        add_treasury = -5000
+
+        random_list = {
+            70 = {
+                custom_tooltip = mapuche_malon_raid_success_tt
+
+                scope:malon_state = {
+                    state_region = { add_devastation = 45 }
+
+                    add_modifier = {
+                        name = mapuche_raid_devastation
+                        months = 3
+                    }
+                }
+            }
+            30 = {
+                custom_tooltip = mapuche_malon_raid_failed_tt
+
+                scope:malon_state = {
+                    add_modifier = {
+                        name = frontier_raid_repulsed
+                        months = 3
+                    }
+                }
+            }
+        }
+    }
+
+    # Option B – Moderate patrols
+    option = {
+        name = mapuche_malon.1.b
+
+        add_treasury = -15000
+
+        random_list = {
+            50 = {
+                custom_tooltip = mapuche_malon_raid_success_tt
+
+                scope:malon_state = {
+                    state_region = { add_devastation = 25 }
+
+                    add_modifier = {
+                        name = mapuche_raid_devastation
+                        months = 3
+                    }
+                }
+            }
+            50 = {
+                custom_tooltip = mapuche_malon_raid_failed_tt
+
+                scope:malon_state = {
+                    add_modifier = {
+                        name = frontier_raid_repulsed
+                        months = 3
+                    }
+                }
+            }
+        }
+    }
+
+    # Option C – Heavy patrols
+    option = {
+        name = mapuche_malon.1.c
+
+        add_treasury = -30000
+
+        random_list = {
+            30 = {
+                custom_tooltip = mapuche_malon_raid_success_tt
+
+                scope:malon_state = {
+                    state_region = { add_devastation = 10 }
+
+                    add_modifier = {
+                        name = mapuche_raid_devastation
+                        months = 3
+                    }
+                }
+            }
+            70 = {
+                custom_tooltip = mapuche_malon_raid_failed_tt
+
+                scope:malon_state = {
+                    add_modifier = {
+                        name = frontier_raid_repulsed
+                        months = 3
+                    }
+                }
+            }
+        }
+    }
+}
+
+namespace = mapuche_after
+
+mapuche_after.1 = {
+    type = country_event
+    placement = ROOT
+
+    title  = mapuche_after.1.t
+    desc   = mapuche_after.1.d
+    flavor = mapuche_after.1.f
+
+	duration = 3
+
+    event_image = {
+        video = "southamerica_aristocrats"
+    }
+
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+    icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+    trigger = {
+    }
+
+    option = {
+        name = mapuche_after.1.a
+    }
+}

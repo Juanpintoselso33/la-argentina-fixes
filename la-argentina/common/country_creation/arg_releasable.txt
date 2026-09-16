@@ -1,0 +1,20 @@
+﻿REPLACE:URU = {
+	states = {
+		STATE_PAYSANDU
+		STATE_MONTEVIDEO
+		STATE_BANDA_ORIENTAL
+	}
+	ai_will_do = { always = no }
+}
+REPLACE:CHL = {
+	states = {
+		STATE_TARAPACA
+		STATE_ANTOFAGASTA
+		STATE_LOS_RIOS
+		STATE_LOS_LAGOS
+		STATE_AYSEN 
+		STATE_MAGALLANES 
+		STATE_SANTIAGO
+	}
+	ai_will_do = { always = no }
+}

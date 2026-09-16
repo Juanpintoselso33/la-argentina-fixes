@@ -1,0 +1,96 @@
+﻿namespace = hacia_el_sur
+
+# hacia_el_sur JE completion
+
+hacia_el_sur.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = hacia_el_sur.1.t
+	desc = hacia_el_sur.1.d
+	flavor = hacia_el_sur.1.f
+
+	duration = 3
+
+	event_image = {
+		video = "southamerica_aristocrats"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	trigger = {
+		# complete je_hacia_el_sur
+	}
+
+	immediate = {
+	}
+option = {
+		name = hacia_el_sur.1.a
+		default_option = yes
+		if = {
+			limit = {
+			AND = {
+				owns_entire_state_region = STATE_FORMOSA_ARG
+				}
+			}
+			s:STATE_FORMOSA_ARG = {
+					add_homeland = cu:platinean
+				}
+				s:STATE_FORMOSA_ARG.region_state:PRG = {
+				add_modifier = {
+					name = formosa_settlement
+					months = very_short_modifier_time
+					}
+				}
+			
+			}
+		}
+	}
+
+namespace = hacia_el_norte
+
+# hacia_el_norte JE completion
+
+hacia_el_norte.1 = {
+    type = country_event
+    placement = ROOT
+
+    title = hacia_el_norte.1.t
+    desc = hacia_el_norte.1.d
+    flavor = hacia_el_norte.1.f
+
+    duration = 3
+
+    event_image = {
+        video = "southamerica_aristocrats"
+    }
+
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+    icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+    trigger = {
+		# complete je_hacia_el_norte
+    }
+	immediate = {
+	}
+	
+	option = {
+		name = hacia_el_norte.1.a
+		default_option = yes
+
+		s:STATE_ALTO_PARAGUAY = {
+			add_homeland = cu:platinean
+			random_scope_state = {
+				limit = {
+					owner = ROOT
+				}
+				add_modifier = {
+					name = alto_paraguay_settlement
+					months = very_short_modifier_time
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+﻿l_spanish:
+
+building_throughput_luxury_clothes_mult: "Producción de bienes: ropa de lujo"
+modifier_building_throughput_luxury_clothes_mult_desc: "Una bonificación o penalización por la producción de $luxury_clothes$."
+
+goods_output_luxury_clothes_mult_desc: "Una bonificación o penalización por la producción de $luxury_clothes$."
+goods_output_luxury_clothes_mult: "Producción de bienes: Ropa de lujo"
+
+building_output_yerba_mate_mult_desc: "Una bonificación o penalización por la producción de $yerba_mate$."
+building_output_yerba_mate_mult: "Producción de bienes: Yerba Mate"
+
+goods_output_meat_mult:  "Producción de bienes: $carne$"
+goods_output_meat_mult_desc: "Una bonificación o penalización por la producción de $carne$."
+
+goods_output_licor_mult: "Producción de bienes: $licor$"
+goods_output_licor_mult_desc: "Una bonificación o penalización por la producción de $licor$"
+
+goods_output_yerba_mate_add: "Producción de bienes: Yerba Mate"
+goods_output_yerba_mate_add_desc: "Una bonificación o penalización por la producción de $yerba_mate$."
+goods_output_yerba_mate_mult: "Una bonificación o penalización por la producción de $yerba_mate$."
+building_yerba_mate_plantation_throughput_add: "Producción de bienes: $yerba_mate$"
+building_yerba_mate_plantation_throughput_add_desc:  "Una bonificación o penalización por la producción de $yerba_mate$"
+
+goods_vineyard_plantation_output_add: " Producción de bienes: vino "
+goods_vineyard_plantation_output_add_desc: "Una bonificación o penalización por la producción de $wine$."

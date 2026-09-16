@@ -1,0 +1,229 @@
+namespace = supreme_power
+
+# on action every month
+supreme_power.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = supreme_power.1.t
+	desc = supreme_power.1.d
+	flavor = supreme_power.1.f
+
+	cooldown = { years = 999 }
+	duration = 1
+
+	event_image = {
+		video = "southamerica_caudillo"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	trigger = {
+		c:ARG ?= this # important because c:ARG can not exist
+		game_date >= 1836.2.1 #first day
+		OR = {
+			has_law = law_type:law_autocracy
+			has_law = law_type:law_military_junta
+			has_law = law_type:law_oligarchy
+		}
+
+	}
+
+	immediate = {
+
+
+
+	}
+
+	option = {
+		name = supreme_power.1.a
+		default_option = yes
+
+		add_journal_entry =  { type = je_rosas}
+
+		add_modifier = {
+			name = supreme_power_modifier
+
+		}
+	}
+}
+
+
+# on action every month
+supreme_power.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = supreme_power.2.t
+	desc = supreme_power.2.d
+	flavor = supreme_power.2.f
+
+	cooldown = { years = 999 }
+	duration = 1
+
+	event_image = {
+		video = "southamerica_city_center"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	trigger = {
+		c:ARG ?= this # important because c:ARG can not exist
+		game_date >= 1836.2.1 #first day
+		OR = {
+			has_law = law_type:law_autocracy
+			has_law = law_type:law_military_junta
+			has_law = law_type:law_oligarchy
+		}
+	}
+
+	immediate = {
+			ruler = {
+				save_scope_as = our_leader
+			}
+
+		set_variable = { name = new_laws }
+
+		activate_law = law_type:law_landed_voting
+		remove_modifier = mazorca_modifier
+		remove_modifier = supreme_power_modifier
+		remove_modifier = divisa_punzo_modifier
+		remove_modifier = customs_laws
+
+		every_scope_state = {
+			limit = {
+				owner = root
+				state_region = s:STATE_BUENOS_AIRES
+			} remove_modifier = customs_laws2
+
+		}
+
+		every_scope_state = {
+			limit = {
+				owner = root
+				NOT = {
+					state_region = s:STATE_BUENOS_AIRES
+				}
+			} remove_modifier = customs_laws3
+
+		}
+
+		hidden_effect = {
+			create_character = { template = ARG_bartolome_mitre }
+		}
+
+	}
+
+	option = {
+		name = supreme_power.2.a
+		default_option = yes
+		custom_tooltip = supreme_power.2.b
+
+		every_scope_character = {
+			limit = {
+				has_template = ARG_Juan_Manuel_de_Rosas
+				exists = yes
+			} exile_character = yes
+		}
+
+		every_scope_character = {
+			limit = {
+				exists = yes
+				has_template = ARG_juan_bautista_alberdi
+			}
+			transfer_character = root
+			set_as_interest_group_leader = yes
+		}
+
+		every_scope_character = {
+			limit = {
+				exists = yes
+				has_template = ARG_domingo_sarmiento
+			}
+			transfer_character = root
+			set_as_interest_group_leader = yes
+		}
+
+		ig:ig_landowners = {
+			add_ideology = ideology_laissez_faire
+		}
+
+		ig:ig_armed_forces = {
+			add_ideology = ideology_laissez_faire
+		}
+
+		every_scope_character = {
+			limit = {
+				has_template = ARG_Justo_Jose_de_Urquiza
+				exists = yes
+			} set_character_as_ruler = yes set_ideology = ideology:ideology_market_liberal
+		}
+
+
+
+		every_scope_character = {
+			limit = {
+				has_template = ARG_bartolome_mitre
+			}
+			set_as_interest_group_leader = yes
+		}
+
+	}
+}
+
+supreme_power.3 = {
+	type = country_event
+	placement = ROOT
+
+	title = supreme_power.3.t
+	desc = supreme_power.3.d
+	flavor = supreme_power.3.f
+
+	cooldown = { years = 999 }
+	duration = 1
+
+	event_image = {
+		video = "unspecific_politicians_arguing"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	trigger = {
+		#decision
+	}
+
+	immediate = {
+		set_variable = {
+			name = new_era
+		}
+
+
+	}
+
+	option = {
+		name = supreme_power.3.a
+		default_option = yes
+
+		activate_law = law_type:law_no_migration_controls
+		activate_law = law_type:law_free_trade
+		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_racial_segregation
+
+		add_modifier = {
+			name = new_laws_modifier
+			days = normal_modifier_time
+		}
+	}
+}
+
+
+
+
+
+
+
+
+

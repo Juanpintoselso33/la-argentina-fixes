@@ -1,0 +1,22 @@
+﻿building_yerba_mate_plantation = {
+	building_group = bg_yerba_mate_plantation
+	icon = "gfx/interface/icons/arg_buildings_icons/yerba_mate_plantation.dds"
+	required_construction = construction_cost_low
+
+	unlocking_technologies = {
+		enclosure
+	}
+	
+	city_type = farm
+	levels_per_mesh = 5
+	
+	production_method_groups = {
+		pmg_base_building_yerba_mate_plantation
+		pmg_train_automation_building_yerba_mate_plantation
+		
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_plantations.dds"
+}
+

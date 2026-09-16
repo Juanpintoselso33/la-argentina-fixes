@@ -1,0 +1,37 @@
+# Restaura dos regiones geográficas que la Argentina borra y que el juego usa en la journal entry de la Gran Colombia,
+# adaptadas al mapa de la Argentina (Uruguay dividido en Montevideo, Banda Oriental y Paysandú).
+
+geographic_region_north_andes = { # North Andean homelands
+	short_key = "north_andes"
+
+	state_regions = {
+		STATE_ECUADOR
+		STATE_ZULIA
+		STATE_MIRANDA
+		STATE_BOLIVAR
+		STATE_ANTIOQUIA
+		STATE_GUAVIARE
+		STATE_CUNDINAMARCA
+		STATE_CAUCA
+	}
+}
+
+geographic_region_southern_cone = {
+	short_key = "southern_cone"
+
+	state_regions = {
+		STATE_MONTEVIDEO
+		STATE_BANDA_ORIENTAL
+		STATE_PAYSANDU
+		STATE_ALTO_PARAGUAY
+		STATE_BAJO_PARAGUAY
+		STATE_BUENOS_AIRES
+		STATE_RIO_NEGRO
+		STATE_LA_PAMPA
+		STATE_SANTA_FE
+		STATE_CORRIENTES
+		STATE_TUCUMAN
+		STATE_CHACO
+		STATE_JUJUY
+	}
+}

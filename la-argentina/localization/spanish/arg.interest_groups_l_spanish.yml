@@ -1,0 +1,12 @@
+﻿l_spanish:
+
+
+  # Argentinian IGs
+ ig_caudillos:0 "Caudillos"
+ ig_caudillos_desc:0 "Los Caudillos son señores de la guerra que controlan ambas tierra y población. Tienen una fuerte influencia en el gobierno nacional."
+ ig_gauchos:0 "Gauchos"
+ ig_gauchos_desc:0 "Los Gauchos son jinetes que viven en la extensa llanura argentina, mayormente trabajan la tierra y arrían el ganado."
+ ig_ejercito_argentino:0 "Ejército Argentino"
+ ig_ejercito_argentino_desc:0 "El recientemente formado ejército argentino defiente el territorio nacional y sirve los intereses del gobierno."
+ ig_generacion_37:0 "La Generación del 37"
+ ig_generacion_37_desc:0 "La Generación del 37 son un grupo de intelectuales que se consideran a si mismos los herederos de la Revolución de Mayo, ellos se esfuerzan por la consolidación de la joven nación."

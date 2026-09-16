@@ -1,0 +1,11 @@
+--- original/common/dynamic_country_names/00_dynamic_country_names.txt
++++ corregido/common/dynamic_country_names/00_dynamic_country_names.txt
+@@ -3126,7 +3126,7 @@
+ 		trigger = {
+ 			exists = scope:actor
+ 			scope:actor ?= {
+-				capital = { state_region = s:STATE_PATAGONIA }
++				capital = { state_region = s:STATE_RIO_NEGRO }
+ 			}
+ 		}
+ 	}

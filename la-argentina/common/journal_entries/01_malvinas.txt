@@ -1,0 +1,43 @@
+﻿je_malvinas = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+group = je_group_historical_content
+	complete = {
+		exists = c:ARG
+		c:ARG = {
+			owns_entire_state_region = STATE_SOUTH_ATLANTIC_ISLANDS
+		}
+	}
+
+	on_complete = {
+		add_modifier = {
+				name = islas_malvinas
+		}
+	}
+
+	weight = 200
+
+	transferable = no
+}
+
+je_islas_malvinas = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+group = je_group_historical_content
+	is_shown_when_inactive = {
+		exists = c:ARG
+		c:ARG = ROOT
+	}
+
+	possible = {
+		is_subject = no
+	}
+
+	complete = {
+		owns_entire_state_region = STATE_SOUTH_ATLANTIC_ISLANDS
+	}
+
+	on_complete = {
+		trigger_event = { id = islas_malvinas.1 }
+	}
+
+	weight = 10
+}

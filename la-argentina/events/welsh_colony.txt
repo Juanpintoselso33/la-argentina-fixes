@@ -1,0 +1,55 @@
+﻿namespace = welsh_colony
+
+# Welsh Colony JE Completion
+welsh_colony.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = welsh_colony.1.t
+	desc = welsh_colony.1.d
+	flavor = welsh_colony.1.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_steam_ship"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	trigger = {
+		OR = {
+			c:ARG ?= this
+			c:Great_ARG ?= this
+			c:PLT ?= this
+		}
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = welsh_colony.1.a
+		default_option = yes
+		if = {
+			limit = {
+			owns_entire_state_region = STATE_CHUBUT
+		}
+
+			s:STATE_CHUBUT = {
+				add_homeland = cu:welsh
+				random_scope_state = {
+					limit = {
+						owner = ROOT
+					}
+					create_pop = {
+						pop_type = laborers
+						culture = welsh
+						size = 1530
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+﻿language_group_mapudungun = {
+	type = language
+}
+
+language_group_kakan = {
+	type = language
+}
+language_group_yagan = {
+	type = language
+}
+
+language_group_kawesqar = {
+	type = language
+}
+
+language_group_comechingona = {
+	type = language
+}
+language_group_mataco_maka = {
+	type = language
+}
+
+language_group_millcayac = {
+	type = language
+}
+language_group_toba_qom = {
+	type = language
+}
+language_group_gununa = {
+	type = language
+}

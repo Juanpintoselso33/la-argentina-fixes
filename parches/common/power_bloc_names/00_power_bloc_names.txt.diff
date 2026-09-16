@@ -1,0 +1,29 @@
+--- original/common/power_bloc_names/00_power_bloc_names.txt
++++ corregido/common/power_bloc_names/00_power_bloc_names.txt
+@@ -1552,7 +1552,7 @@
+ 				region = sr:region_andes
+ 				state_region = s:STATE_LOS_RIOS
+ 				state_region = s:STATE_SANTIAGO
+-				state_region = s:STATE_ARAUCANIA
++				state_region = s:STATE_LOS_LAGOS
+ 				state_region = s:STATE_CAUCA
+ 				state_region = s:STATE_SAN_SALVADOR
+ 			}
+@@ -1569,7 +1569,7 @@
+ 				region = sr:region_andes
+ 				state_region = s:STATE_LOS_RIOS
+ 				state_region = s:STATE_SANTIAGO
+-				state_region = s:STATE_ARAUCANIA
++				state_region = s:STATE_LOS_LAGOS
+ 				state_region = s:STATE_CAUCA
+ 				state_region = s:STATE_SAN_SALVADOR
+ 			}
+@@ -1838,7 +1838,7 @@
+ congress_of_montevideo = {
+ 	trigger = {
+ 		any_scope_state = {
+-			state_region = s:STATE_URUGUAY
++			state_region = s:STATE_MONTEVIDEO
+ 			is_incorporated = yes
+ 		}
+ 	}

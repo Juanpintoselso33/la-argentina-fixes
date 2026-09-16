@@ -1,0 +1,23 @@
+--- original/common/history/military_formations/02_military_formations_south_america.txt
++++ corregido/common/history/military_formations/02_military_formations_south_america.txt
+@@ -354,13 +354,13 @@
+ 
+ 			combat_unit = {
+ 				type = unit_type:combat_unit_type_line_infantry
+-				state_region = s:STATE_URUGUAY
+-				count = 3
+-			}
+-
+-			combat_unit = {
+-				type = unit_type:combat_unit_type_cuirassiers
+-				state_region = s:STATE_URUGUAY
++				state_region = s:STATE_MONTEVIDEO
++				count = 3
++			}
++
++			combat_unit = {
++				type = unit_type:combat_unit_type_cuirassiers
++				state_region = s:STATE_MONTEVIDEO
+ 				count = 1
+ 			}
+ 		}

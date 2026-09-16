@@ -1,0 +1,165 @@
+﻿l_spanish:
+# STATES
+
+ #Arentina
+  # Formosa
+   HUB_NAME_STATE_FORMOSA_ARG_city: "Formosa"
+   HUB_NAME_STATE_FORMOSA_ARG_farm: "Palo Santo"
+   HUB_NAME_STATE_FORMOSA_ARG_wood: "Las Lomitas"
+   HUB_NAME_STATE_FORMOSA_ARG_mine: "Las Tres Marias"
+
+  # Tierra Del Fuego
+   HUB_NAME_STATE_TIERRA_DEL_FUEGO_city: "Ushuaia"
+   HUB_NAME_STATE_TIERRA_DEL_FUEGO_farm: "Rio Grande"
+   HUB_NAME_STATE_TIERRA_DEL_FUEGO_wood: "Carmen"
+   HUB_NAME_STATE_TIERRA_DEL_FUEGO_mine: "Tolhuin"
+   HUB_NAME_STATE_TIERRA_DEL_FUEGO_port: "Almirante Brown"
+
+  # STATES Malvinas
+   HUB_NAME_STATE_ISLAS_MALVINAS_city: "Stanley"
+   HUB_NAME_STATE_ISLAS_MALVINAS_port: "Fox Bay"
+   HUB_NAME_STATE_ISLAS_MALVINAS_farm: "North Arm"
+   HUB_NAME_STATE_ISLAS_MALVINAS_mine: "Goose Green"
+   HUB_NAME_STATE_ISLAS_MALVINAS_wood: "Port Howard"
+ 
+  # STATES Islas Georgias
+   HUB_NAME_STATE_ISLAS_GEORGIAS_city: "Leith Harbour"
+   HUB_NAME_STATE_ISLAS_GEORGIAS_farm: "Grytviken"
+   HUB_NAME_STATE_ISLAS_GEORGIAS_port: "Husvik"
+   HUB_NAME_STATE_ISLAS_GEORGIAS_wood: "King Edward Point"
+   HUB_NAME_STATE_ISLAS_GEORGIAS_mine: "Mount Paget"
+
+  # Entre Rios
+   HUB_NAME_STATE_ENTRE_RIOS_city: "Paraná"
+   HUB_NAME_STATE_ENTRE_RIOS_farm: "Concordia"
+   HUB_NAME_STATE_ENTRE_RIOS_mine: "San José de Feliciano"
+   HUB_NAME_STATE_ENTRE_RIOS_wood: "Concepción del Uruguay"
+   HUB_NAME_STATE_ENTRE_RIOS_port: "Puerto Constanza"
+  
+  # Misiones
+   HUB_NAME_STATE_MISIONES_city: "Posadas"
+   HUB_NAME_STATE_MISIONES_farm: "Oberá"
+   HUB_NAME_STATE_MISIONES_wood: "puerto Iguazú"
+   HUB_NAME_STATE_MISIONES_mine: "Bernardo de Irigoyen
+
+  #Salta
+   HUB_NAME_STATE_SALTA_city: "Salta"
+   HUB_NAME_STATE_SALTA_farm: "Pichanal"
+   HUB_NAME_STATE_SALTA_mine: "Cafayate"
+   HUB_NAME_STATE_SALTA_wood: "General Güemes"
+   
+  #Santiago del Estero
+   HUB_NAME_STATE_SANTIAGO_DEL_ESTERO_city: "Santiago del Estero"
+   HUB_NAME_STATE_SANTIAGO_DEL_ESTERO_farm: "Termas de Rio Hondo"
+   HUB_NAME_STATE_SANTIAGO_DEL_ESTERO_wood: "Quimíli"
+   HUB_NAME_STATE_SANTIAGO_DEL_ESTERO_mine: "Monte Quemado"
+   
+  #Catamarca
+   HUB_NAME_STATE_CATAMARCA_city: "San Fernado del Valle de Catamarca"
+   HUB_NAME_STATE_CATAMARCA_wood: "Fiambalá"
+   HUB_NAME_STATE_CATAMARCA_mine: "Antofagasta de la Sierra"
+   HUB_NAME_STATE_CATAMARCA_farm: "Belén"
+   
+  #La Rioja
+   HUB_NAME_STATE_LA_RIOJA_city: "La Rioja"
+   HUB_NAME_STATE_LA_RIOJA_farm: "Patquia
+   HUB_NAME_STATE_LA_RIOJA_mine: "Famatina"
+   HUB_NAME_STATE_LA_RIOJA_wood: "Chamical"
+   
+  #Cordoba
+   HUB_NAME_STATE_CORDOBA_city: "Cordoba"
+   HUB_NAME_STATE_CORDOBA_farm: "Jesús Maria
+   HUB_NAME_STATE_CORDOBA_mine: "Las Peñas"
+   HUB_NAME_STATE_CORDOBA_wood: "Rio Cuarto"
+   
+  #San Luis
+   HUB_NAME_STATE_SAN_LUIS_city: "San Luis"
+   HUB_NAME_STATE_SAN_LUIS_mine: "Merlo
+   HUB_NAME_STATE_SAN_LUIS_wood: "Unión"
+   HUB_NAME_STATE_SAN_LUIS_farm: "Buena Esperanza"
+   
+  #San Juan
+   HUB_NAME_STATE_SAN_JUAN_city: "San Juan"
+   HUB_NAME_STATE_SAN_JUAN_farm: "Vallecito"
+   HUB_NAME_STATE_SAN_JUAN_wood: "Calingasta"
+   HUB_NAME_STATE_SAN_JUAN_mine: "San José de Jáchal"
+   
+  #Mendoza
+   HUB_NAME_STATE_MENDOZA_city: "Mendoza"
+   HUB_NAME_STATE_MENDOZA_farm: "La Consulta"
+   HUB_NAME_STATE_MENDOZA_wood: "Malargüe"
+   HUB_NAME_STATE_MENDOZA_mine: "Puente del Inca"
+  
+   
+  #Neuquen
+   HUB_NAME_STATE_NEUQUEN_city: "Neuquen"
+   HUB_NAME_STATE_NEUQUEN_farm: "Zapala"
+   HUB_NAME_STATE_NEUQUEN_wood: "Chos Malal"
+   HUB_NAME_STATE_NEUQUEN_mine: "Rincón de los Sauces"
+
+  
+  #Chubut 
+   HUB_NAME_STATE_CHUBUT_city: "Rawson"
+   HUB_NAME_STATE_CHUBUT_wood: "Trevelin"
+   HUB_NAME_STATE_CHUBUT_farm: "Puerto Madryn"
+   HUB_NAME_STATE_CHUBUT_mine: "Los Altares"
+   HUB_NAME_STATE_CHUBUT_port: "Comodoro Rivadavia"
+   
+  #Santa Cruz
+   HUB_NAME_STATE_SANTA_CRUZ_ARG_city: "Rio Gallegos"
+   HUB_NAME_STATE_SANTA_CRUZ_ARG_wood: "Puerto Deseasdo"
+   HUB_NAME_STATE_SANTA_CRUZ_ARG_farm: "Tres Lagos"
+   HUB_NAME_STATE_SANTA_CRUZ_ARG_mine: "El Calafate"
+   HUB_NAME_STATE_SANTA_CRUZ_ARG_port: "Puerto Santa Cruz"
+
+
+ #Bolivia
+   # Tarija
+   HUB_NAME_STATE_TARIJA_city: "Tarija"
+   HUB_NAME_STATE_TARIJA_farm: "Villamontes"
+   HUB_NAME_STATE_TARIJA_mine: "El Palmar"
+   HUB_NAME_STATE_TARIJA_wood: "Bermejo"
+   
+ #Uruguay
+   # Banda Oriental
+   HUB_NAME_STATE_BANDA_ORIENTAL_city: "Rocha"
+   HUB_NAME_STATE_BANDA_ORIENTAL_farm: "La Paloma"
+   HUB_NAME_STATE_BANDA_ORIENTAL_wood: "Lago Merin"
+   HUB_NAME_STATE_BANDA_ORIENTAL_mine: "Melo"
+   HUB_NAME_STATE_BANDA_ORIENTAL_port: "Punta del Diablo"
+  
+   # Paysandú
+   HUB_NAME_STATE_PAYSANDU_city: "Salto"
+   HUB_NAME_STATE_PAYSANDU_farm: "Paysandú"
+   HUB_NAME_STATE_PAYSANDU_wood: "Fray Bentos"
+   HUB_NAME_STATE_PAYSANDU_mine: "Tacuarembó"
+   HUB_NAME_STATE_PAYSANDU_port: "Punta del Diablo"
+  
+   # Montevideo
+   HUB_NAME_STATE_MONTEVIDEO_city: "Montevideo"
+   HUB_NAME_STATE_MONTEVIDEO_farm: "Mercedes"
+   HUB_NAME_STATE_MONTEVIDEO_mine: "Minas"
+   HUB_NAME_STATE_MONTEVIDEO_wood: "Colonia del Sacramento"
+   HUB_NAME_STATE_MONTEVIDEO_port: "Punta del Este"
+
+ #Chile
+   # Los Lagos #907
+   HUB_NAME_STATE_LOS_LAGOS_city: "Puerto Montt"
+   HUB_NAME_STATE_LOS_LAGOS_port: "Ancud"
+   HUB_NAME_STATE_LOS_LAGOS_farm: "Osorno"
+   HUB_NAME_STATE_LOS_LAGOS_wood: "Chaitén"
+   HUB_NAME_STATE_LOS_LAGOS_mine: "Quellón"
+
+   # Aysen #908
+   HUB_NAME_STATE_AYSEN_city: "Coyhaique"
+   HUB_NAME_STATE_AYSEN_port: "Puerto Aysén"
+   HUB_NAME_STATE_AYSEN_farm: "Puerto Cisnes"
+   HUB_NAME_STATE_AYSEN_mine: "Cochrane"
+   HUB_NAME_STATE_AYSEN_wood: "La Junta"
+
+   # Magallanes #909
+   HUB_NAME_STATE_MAGALLANES_city: "Punta Arenas"
+   HUB_NAME_STATE_MAGALLANES_port: "Porvenir"
+   HUB_NAME_STATE_MAGALLANES_farm: "Puerto Natales"
+   HUB_NAME_STATE_MAGALLANES_mine: "San Gregorio"
+   HUB_NAME_STATE_MAGALLANES_wood: "Puerto Williams"

@@ -1,0 +1,13 @@
+--- original/common/country_creation/00_releasable_countries.txt
++++ corregido/common/country_creation/00_releasable_countries.txt
+@@ -2101,7 +2101,9 @@
+ 
+ URU = {
+ 	states = {
+-		STATE_URUGUAY
++		STATE_MONTEVIDEO
++		STATE_BANDA_ORIENTAL
++		STATE_PAYSANDU
+ 	}
+ 	ai_will_do = { always = no }
+ }

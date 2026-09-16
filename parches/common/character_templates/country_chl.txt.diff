@@ -1,0 +1,20 @@
+--- original/common/character_templates/country_chl.txt
++++ corregido/common/character_templates/country_chl.txt
+@@ -959,7 +959,7 @@
+ 	commander_rank = default
+ 	interest_group = ig_industrialists
+ 	ideology = ideology_jingoist_leader
+-    home_region = STATE_ARAUCANIA
++    home_region = STATE_LOS_LAGOS
+ 	culture = primary_culture
+ 	religion = rel:catholic
+ 	traits = {
+@@ -1048,7 +1048,7 @@
+ 	commander_rank = default
+ 	interest_group = ig_armed_forces
+ 	ideology = ideology_moderate
+-    home_region = STATE_ARAUCANIA
++    home_region = STATE_LOS_LAGOS
+ 	culture = primary_culture
+ 	religion = rel:catholic
+ 	traits = {

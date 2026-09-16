@@ -1,0 +1,68 @@
+﻿language_mapudungun = {
+	type = language
+	trait_group = language_group_mapudungun
+}
+language_kawesqar = {
+	type = language
+	trait_group = language_group_kawesqar
+}
+language_picunche = {
+	type = language
+	trait_group = language_group_mapudungun
+}
+language_chesungun = {
+	type = language
+	trait_group = language_group_mapudungun
+}
+language_chono = {
+	type = language
+	trait_group = language_group_chonan
+}
+language_yagan = {
+	type = language
+	trait_group = language_group_yagan
+}
+
+language_aonikenk = {
+	type = language
+	trait_group = language_group_chonan
+}
+language_selknam= {
+	type = language
+	trait_group = language_group_chonan
+}
+
+language_ranquel = {
+	type = language
+	trait_group = language_group_mapudungun
+}
+
+language_comechingon = {
+	type = language
+	trait_group = language_group_comechingona
+}
+
+language_mataco= {
+	type = language
+	trait_group = language_group_mataco_maka
+}
+
+language_kakan = {
+	type = language
+	trait_group = language_group_kakan
+}
+
+language_millcayac = {
+	type = language
+	trait_group = language_group_millcayac
+}
+
+language_qom = {
+	type = language
+	trait_group = language_group_toba_qom
+}
+
+language_gununa = {
+	type = language
+	trait_group = language_group_gununa
+}

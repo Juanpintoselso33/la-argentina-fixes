@@ -1,0 +1,61 @@
+﻿Great_ARG = {
+	color = { 45 154 173 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = { argentine }
+	capital = STATE_BUENOS_AIRES
+}
+REPLACE:PLT = {
+	color = { 45 154 173 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { platinean }
+	capital = STATE_BUENOS_AIRES
+}
+REPLACE:URU = {
+	color = { 131 101 85 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { platinean }
+	capital = STATE_MONTEVIDEO
+	is_named_from_capital = yes
+}
+REPLACE:PAT = {
+	color = { 196 25 10 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { mapuche }
+	capital = STATE_RIO_NEGRO
+}
+REPLACE:THL = {
+	color = { 57 124 138 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tehuelche }
+	capital = STATE_CHUBUT
+}
+REPLACE:SLK = {
+	color = { 122 14 52 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { patagonian }
+	capital = STATE_MAGALLANES
+}

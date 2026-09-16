@@ -1,0 +1,40 @@
+﻿l_english:
+
+##journal_ban_slavery
+je_vientres: "Libertad de Vientres"
+je_vientres_reason: "Partus sequitur ventrum, lo que nace sigue al vientre. Nos hemos separado del antiguo regimen esclavista declarando libre a cada hijo de esclavo"
+
+
+#journal_expansionism
+je_chaco: "The Conquest of The Chaco"
+je_chaco_reason: "The Impenetrable Chaco will eventually fall, and we shall settle these lands that are ours by right."
+
+je_malvinas: "The conquest of the Malvinas"
+je_malvinas_status: "Own the entire state of Malvinas and the Georgias."
+je_malvinas_reason: "Negotiations over the Malvinas have broken down, and so we are forced to pursue diplomacy through other means."
+je_islas_malvinas: "Islas Malvinas"
+je_islas_malvinas_reason: "Either through diplomacy or war, the islands will be returned to us"
+
+
+je_the_tarija_question: "The Tarija Question"
+je_the_tarija_question_reason: "Tarija is rightful argentine land, our will must be imposed in the region."
+
+je_alto_paraguay: "the Conquest of Alto Paraguay"
+je_alto_paraguay_reason: "We cannot let our neighbours claim the lands of Alto Paraguay"
+
+je_hacia_el_sur: "Push South!"
+je_hacia_el_sur_reason: "We now own Alto paraguay, but we should take Formosa aswell"
+
+je_hacia_el_norte: "Push North!"
+je_hacia_el_norte_reason: "We now own Formosa, but we should take Alto Paraguay aswell"
+
+##Migration
+je_welsh_colony: "A Welsh ship arrives"
+je_welsh_colony_reason: "We should welcome these settlers with open arms, the Chubut province is scarecely populated."
+
+#Malon
+je_mapuche_malones: "Malon"
+je_mapuche_malones_reason: "As long as the Mapuche remain independent on our frontier, they will raid our settlements with their Malones. We must either bring them under our rule or wipe out their confederation once and for all."
+
+je_mapuche_malones_tt_subject: "Mapuche is a Subject of [SCOPE.sCountry('argentina_scope').GetName]"
+je_mapuche_malones_tt_destroyed: "The Mapuche Confederation no longer exists"

@@ -1,0 +1,28 @@
+--- original/common/scripted_triggers/00_scripted_triggers.txt
++++ corregido/common/scripted_triggers/00_scripted_triggers.txt
+@@ -360,7 +360,7 @@
+ 		region = sr:region_east_africa
+ 		state_region = s:STATE_SANTIAGO
+ 		state_region = s:STATE_LOS_RIOS
+-		state_region = s:STATE_ARAUCANIA
++		state_region = s:STATE_LOS_LAGOS
+ 		state_region = s:STATE_ANTOFAGASTA
+ 		state_region = s:STATE_TARAPACA
+ 		state_region = s:STATE_POTOSI
+@@ -773,8 +773,14 @@
+ 
+ owned_la_plata_region_states = {
+ 	owns_entire_state_region = STATE_SANTIAGO
+-	owns_entire_state_region = STATE_PATAGONIA
+-	owns_entire_state_region = STATE_ARAUCANIA
++	owns_entire_state_region = STATE_RIO_NEGRO
++	owns_entire_state_region = STATE_NEUQUEN
++	owns_entire_state_region = STATE_CHUBUT
++	owns_entire_state_region = STATE_SANTA_CRUZ_ARG
++	owns_entire_state_region = STATE_LOS_LAGOS
++	owns_entire_state_region = STATE_AYSEN
++	owns_entire_state_region = STATE_MAGALLANES
++	owns_entire_state_region = STATE_TIERRA_DEL_FUEGO
+ 	owns_entire_state_region = STATE_LOS_RIOS
+ 	owns_entire_state_region = STATE_SOUTH_ATLANTIC_ISLANDS
+ 	owns_entire_state_region = STATE_BAJO_PARAGUAY

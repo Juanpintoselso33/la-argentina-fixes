@@ -1,0 +1,11 @@
+--- original/events/malvinas_events.txt
++++ corregido/events/malvinas_events.txt
+@@ -198,7 +198,7 @@
+ # Malvinas conquest
+ namespace = islas_malvinas
+ 
+-islas_malvinas.1 {
++islas_malvinas.1 = {
+     type = country_event
+ 	placement = ROOT
+ 

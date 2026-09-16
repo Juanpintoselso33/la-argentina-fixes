@@ -1,0 +1,47 @@
+﻿je_mapuche_malones = {
+    icon = "gfx/interface/icons/event_icons/event_military.dds"
+    group = je_group_historical_content
+
+    is_shown_when_inactive = {
+        exists = c:PAT
+        OR = {
+            c:ARG ?= this
+            c:Great_ARG ?= this
+            c:PLT ?= this
+        }
+    }
+
+    possible = {
+        exists = c:PAT
+        OR = {
+            c:ARG ?= this
+            c:Great_ARG ?= this
+            c:PLT ?= this
+        }
+    }
+
+    complete = {
+        OR = {
+            custom_tooltip = {
+                text = je_mapuche_malones_tt_destroyed
+                NOT = { exists = c:PAT }
+            }
+            c:PAT = { is_subject_of = ROOT }
+        }
+    }
+
+    on_complete = {
+        trigger_event = { id = mapuche_after.1 }
+    }
+
+    on_monthly_pulse = {
+         
+            random_events = {
+                95 = 0
+                5 = mapuche_malon.1
+            }
+        }
+    
+
+    weight = 25
+}

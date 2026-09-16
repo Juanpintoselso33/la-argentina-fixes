@@ -1,0 +1,74 @@
+﻿heritage_kolla = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+
+heritage_mapuche = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+
+heritage_kawesqar = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+
+heritage_picunches = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+
+heritage_huilliches = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+
+heritage_yaganes  = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+
+heritage_chonos = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+heritage_tehuelche  = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+heritage_selknam  = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+heritage_ranquel  = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+heritage_comechingon  = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+
+heritage_wichi  = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+
+heritage_diaguita  = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+
+heritage_huarpe  = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+
+heritage_toba  = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+heritage_pampas  = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}

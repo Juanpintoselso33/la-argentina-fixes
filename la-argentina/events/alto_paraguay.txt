@@ -1,0 +1,50 @@
+﻿namespace = alto_paraguay
+
+# alto_paraguay JE completion
+
+alto_paraguay.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = alto_paraguay.1.t
+	desc = alto_paraguay.1.d
+	flavor = alto_paraguay.1.f
+
+	duration = 3
+
+	event_image = {
+		video = "southamerica_aristocrats"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	trigger = {
+		# complete je_alto_paraguay
+	}
+
+	immediate = {
+	}
+option = {
+		name = alto_paraguay.1.a
+		default_option = yes
+		if = {
+			limit = {
+			AND = {
+					owns_entire_state_region = STATE_ALTO_PARAGUAY
+					
+				}
+			}
+			s:STATE_ALTO_PARAGUAY = {
+					add_homeland = cu:platinean
+				}
+				s:STATE_ALTO_PARAGUAY.region_state:PRG = {
+				add_modifier = {
+					name = alto_paraguay_settlement
+					months = very_short_modifier_time
+				}
+			}
+		}
+	}
+}

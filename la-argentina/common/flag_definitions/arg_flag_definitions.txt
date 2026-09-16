@@ -1,0 +1,109 @@
+﻿
+REPLACE:ARG = {
+# Argentina
+
+	flag_definition = {
+		coa = ARG_monarchy
+		subject_canton = ARG_monarchy
+		coa_with_overlord_canton = ARG_subject
+		allow_overlord_canton = yes
+		priority = 1
+	}
+
+
+	flag_definition = {
+		coa = ARG_republic
+		subject_canton = ARG_republic
+		coa_with_overlord_canton = ARG_subject
+		allow_overlord_canton = yes
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+
+
+	flag_definition = {
+		coa = ARG_dictatorship
+		subject_canton = ARG_dictatorship
+		coa_with_overlord_canton = ARG_subject
+		allow_overlord_canton = yes
+		priority = 20
+		trigger = {
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = ARG_absolute_monarchy
+		subject_canton = ARG_absolute_monarchy
+		coa_with_overlord_canton = ARG_subject
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = ARG_communist
+		priority = 30
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = ARG_subject_SPA
+		priority = 30
+		trigger = { 
+			coa_def_spanish_ensign_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = ARG_fascist
+		subject_canton = ARG_fascist
+		coa_with_overlord_canton = ARG_subject
+		priority = 20
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ARG_anarchist
+		subject_canton = ARG_anarchist
+		priority = 30
+		trigger = { 
+			coa_def_anarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = ARG_theocracy
+		subject_canton = ARG_theocracy
+		priority = 30
+		trigger = { 
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+}
+REPLACE:PLT = {
+# united provinces
+
+	flag_definition = {
+		coa = PLT
+		subject_canton = PLT
+		coa_with_overlord_canton = ARG_subject
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}
+Great_ARG = {
+# Gran Argentina
+
+	flag_definition = {
+		coa = Great_ARG
+		subject_canton = Great_ARG
+		coa_with_overlord_canton = ARG_subject
+		allow_overlord_canton = yes
+		priority = 1
+	}
+}

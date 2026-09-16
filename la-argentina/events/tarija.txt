@@ -1,0 +1,109 @@
+﻿namespace = the_tarija_question
+
+the_tarija_question.1 = {
+  type = country_event
+  placement = ROOT
+
+  title = the_tarija_question.1.t
+  desc = the_tarija_question.1.d
+  flavor = the_tarija_question.1.f
+
+  event_image = {
+    video = "southamerica_aristocrats"
+  }
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/military_parade"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	option = {
+		name = the_tarija_question.1.a
+		default_option = yes
+		add_modifier = tarija_question_settled
+
+		s:STATE_TARIJA = {
+			add_homeland = cu:platinean
+			random_scope_state = {
+				limit = {
+					owner = ROOT
+				}
+				add_modifier = {
+					name = settle_the_north
+					months = very_short_modifier_time
+				}
+			}
+		}
+		s:STATE_SALTA = {
+			add_homeland = cu:platinean
+			random_scope_state = {
+				limit = {
+					owner = ROOT
+				}
+				add_modifier = {
+					name = settle_the_north
+					months = very_short_modifier_time
+				}
+			}
+		}
+		s:STATE_JUJUY = {
+			add_homeland = cu:platinean
+			random_scope_state = {
+				limit = {
+					owner = ROOT
+				}
+				add_modifier = {
+					name = settle_the_north
+					months = very_short_modifier_time
+				}
+			}
+		}
+	}
+
+	option = {
+		name = the_tarija_question.1.b
+		add_modifier = tarija_question_settled2
+
+
+		change_relations = {
+			country = c:BOL
+			value = 20
+		}
+
+		s:STATE_TARIJA = {
+			random_scope_state = {
+				limit = {
+					owner = ROOT
+				}
+				set_state_owner = c:BOL
+			}
+		}
+
+
+		s:STATE_SALTA = {
+			add_homeland = cu:platinean
+			random_scope_state = {
+				limit = {
+					owner = ROOT
+				}
+				add_modifier = {
+					name = settle_the_north
+					months = very_short_modifier_time
+				}
+			}
+		}
+		s:STATE_JUJUY = {
+			add_homeland = cu:platinean
+			random_scope_state = {
+				limit = {
+					owner = ROOT
+				}
+				add_modifier = {
+					name = settle_the_north
+					months = very_short_modifier_time
+				}
+			}
+		}
+	}
+}

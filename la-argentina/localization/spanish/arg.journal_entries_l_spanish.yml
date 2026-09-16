@@ -1,0 +1,41 @@
+﻿l_spanish:
+
+##ban-slavery
+je_vientres: "Libertad de vientres"
+je_vientres_reason: "Partus sequitur ventrum, lo que nace sigue al vientre. Nos hemos separado del antiguo regimen esclavista declarando libre a cada hijo de esclavo"
+
+##expansionism
+je_chaco: "La conquista del Chaco"
+je_chaco_reason: ""El impenetrable Chaco" pronto caera, y colonizaremos estas tierras que son nuestras por derecho."
+
+je_malvinas: "La reconquista de Malvinas"
+je_malvinas_status: "Poseer todo el estado de Malvinas y Georgia.."
+je_malvinas_reason: "Las negociaciones sobre las Malvinas han fracasado, por lo que nos vemos obligados a buscar la diplomacia por otros medios."
+je_islas_malvinas: "Islas Malvinas"
+je_islas_malvinas_reason: "Si es con diplomacia o con guerra, las islas volveran a ser nuestras"
+
+
+je_the_tarija_question: "La cuestión de Tarija"
+je_the_tarija_question_reason: "Tarija es territorio argentino por derecho, nuestra voluntad debe ser impuesta en la región."
+
+je_alto_paraguay: "La conquista del Alto Paraguay"
+je_alto_paraguay_reason: "No podemos dejar que nuestros vecinos conquisten las tierras del Alto Paraguay"
+
+
+je_hacia_el_sur: "Hacia el sur!"
+je_hacia_el_sur_reason: "Tenemos a Alto Paraguay, pero ahora deberiamos tomar a Formosa tambien"
+
+je_hacia_el_norte: "Hacia el norte!"
+je_hacia_el_norte_reason: "Tenemos al Chaco y a Formosa, pero ahora deberiamos tomar Alto Paraguay tambien"
+
+#migracion 
+je_welsh_colony: "Se acerca un barco galés"
+je_welsh_colony_reason: "A estos colonos debemos recibirlos con los brazos abiertos, la provincia de Chubut está escasamente poblada."
+
+
+#Malon
+je_mapuche_malones: "Malon"
+je_mapuche_malones_reason: "Mientras los mapuches permanezcan independientes en nuestra frontera, lanzarán malones contra nuestros asentamientos. Debemos someterlos a nuestra autoridad o acabar con su confederación una vez por todos."
+
+je_mapuche_malones_tt_destroyed: "La Confederación Mapuche ya no existe como país independiente"
+je_mapuche_malones_tt_subject: "Mapuche es súbdita de nuestro país"

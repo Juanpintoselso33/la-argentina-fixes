@@ -1,0 +1,29 @@
+﻿l_spanish:
+ 
+ 
+ # Languages
+language_mapudungun: "Mapudungun"
+language_picunche: "Picunche"
+language_chesungun: "Chesungun"
+language_yagan: "Yagán"
+language_aonikenk: "Aonikenk"
+language_ranquel: "Ranquel"
+language_comechingon: "Comechingon"
+language_mataco: "Mataco"
+language_kakan: "Kakán"
+language_millcayac: "Millcayac"
+language_qom: "Qom"
+languages_selknam: "Selk´Nam
+
+
+# Language groups
+
+language_group_mapudungun: "Mapudungun"
+language_group_kakan: "Kakán"
+language_group_yagan: "Yagán"
+language_group_kawesqar: "Kawesqar"
+language_group_comechingon: "Comechingona"
+language_group_mataco_maka: "Mataco-Maká
+language_group_millcayac: "Millcayac"
+language_group_toba_qom: "Toba Qom"
+language_group_gununa: "Gününa"

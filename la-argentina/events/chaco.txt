@@ -1,0 +1,67 @@
+﻿namespace = chaco
+
+# Chaco JE completion
+
+chaco.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = chaco.1.t
+	desc = chaco.1.d
+	flavor = chaco.1.f
+
+	duration = 3
+
+	event_image = {
+		video = "southamerica_aristocrats"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	trigger = {
+		# complete je_chaco
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = chaco.1.a
+		default_option = yes
+		if = {
+			limit = {
+				AND = {
+					owns_entire_state_region = STATE_CHACO
+					owns_entire_state_region = STATE_FORMOSA_ARG
+					}
+				}
+			
+			s:STATE_CHACO = {
+				add_homeland = cu:platinean
+				random_scope_state = {
+					limit = {
+						owner = ROOT
+					}
+					add_modifier = {
+						name = chaco_settlement
+						months = very_short_modifier_time
+					}
+				}
+			}
+			s:STATE_FORMOSA_ARG = {
+				add_homeland = cu:platinean
+				random_scope_state = {
+					limit = {
+						owner = ROOT
+					}
+					add_modifier = {
+						name = formosa_settlement
+						months = very_short_modifier_time
+					}
+				}
+			}
+		}
+	}
+}

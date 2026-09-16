@@ -1,0 +1,99 @@
+﻿l_spanish:
+
+malvinas.2.t:0 "Una oferta por las Malvinas"
+malvinas.2.d:0 "Buenos Aires nos ha hecho una oferta para comprar las Malvinas."
+malvinas.2.f:0 "Argentina ofrece pagar en el tesoro de Buenos Aires, al representante diplomático o agente de [ROOT.GetCountry.GetRuler.GetHerHis] Majestad el [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle], una suma considerable de Pesos Fuertes en oro para recuperar las islas bajo soberanía argentina."
+malvinas.2.a:0 "Las islas no valen nada, que las tengan los argentinos."
+malvinas.2.b:0 "Nunca venderíamos una posesión valiosa en el Atlántico."
+
+malvinas.3.t:0 "La cuestión Malvinas resuelta"
+malvinas.3.d:0 "Han aceptado nuestros términos. Las islas volverán al control argentino."
+malvinas.3.f:0 "Desde 1833, las Islas Malvinas y las Georgias del Sur han estado bajo control británico, pero ahora finalmente podemos reclamar lo que fue nuestro desde los virreinatos españoles."
+malvinas.3.a:0 "El gaucho Rivero puede descansar en paz."
+
+malvinas.4.t:0 "Fracasaron las negociaciones por la compra de las Malvinas"
+malvinas.4.d:0 "Las negociaciones con los británicos por la compra de las Malvinas han fracasado."
+malvinas.4.f:0 "Vemos, por lo tanto, que la guerra no es solo un acto político, sino también un verdadero instrumento político, una continuación del comercio político, llevada a cabo por otros medios."
+malvinas.4.a:0 "Continuaremos la diplomacia por otros medios."
+
+malvinas.1.t:1 "Una oferta por las Malvinas"
+malvinas.1.d:1 "Nuestro país atraviesa serias dificultades económicas y probablemente consideraría una oferta por la compra de las islas."
+malvinas.1.f:0 "Argentina ofrece pagar en el tesoro de Buenos Aires, al representante diplomático o agente de [ROOT.GetCountry.GetRuler.GetHerHis] Majestad el [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle], una suma considerable de Pesos Fuertes en oro para recuperar las islas bajo soberanía argentina."
+malvinas.1.a:1 "Realicen los arreglos necesarios."
+malvinas.1.c:1 "No podemos afrontar un gasto así en este momento."
+malvinas.1.tt1:1 "Ofreceremos el pago por las islas a lo largo de 1 año."
+
+libertad_de_vientres: "Libertad de Vientres"
+vientres.2.t: "Esclavitud Prohibida"
+vientres.2.d: "Finalmente hemos terminado con el ultimo yugo opresor"
+vientres.2.f: "Durante mucho tiempo hemos luchado por la libertad en esta tierra, finalmente podemos dar por resuelta esta lucha, nos enorgullece anunciar que el último vestigio de nuestro antiguo tirano ha desaparecido, cada hombre en esta tierra es y sera nacido libre e igual uno al otro."
+vientres.2.a: "En Unión y Libertad!"
+	    
+the_tarija_question.1.t: "Un Asunto Resuelto"
+the_tarija_question.1.d: "Tarija está ahora bajo incuestionable autoridad argentina"
+the_tarija_question.1.f: "“La guerra es simplemente la continuación de la política por otros medios.” - Clausewitz"
+the_tarija_question.1.a: "Es hora de aprovechar al máximo la región"
+the_tarija_question.1.b: "La gente de la provincia de Tarija se sienten mas como bolivianos, devolveremos esta provincia a Bolivia."
+
+mapuche_malon.1.t: " Malón"
+mapuche_malon.1.d: "mapuche_malon.1.d: "Llegan informes desde la frontera: guerreros mapuche se han reunido en un malón..."
+mapuche_malon.1.f: "Se hace nube la arena caliente tras el galopar, y jinetes cobrizos corriendo por el medanal: ¡Malón!"
+
+chaco.1.t: "La Conquista del Chaco"
+chaco.1.d: "Finalmente, luego de siglos de fallar, conquistamos y poblamos en el Chaco impenetrable"
+chaco.1.f: "Desde el siglo XVII, los españoles y portugueses intentaron penetrar estas tierras indomables, pero la ferocidad de los nativos siempre predominó, hasta ahora..."
+chaco.1.a: "Por fin podemos caminar libremente por estas interminables planicies y bosques"
+
+islas_malvinas.1.t: "Malvinas Argentinas"
+islas_malvinas.1.d: "Con las islas nuevamente bajo nuestra posesion, empezaremos una nueva era"
+islas_malvinas.1.f:  "Tras su manto de neblinas, no las hemos de olvidar, "Las Malvinas Argentinas", clama el viento y ruge el mar."
+islas_malvinas.1.a: "Es hora de asertar nuestro control"
+ 
+ 
+hacia_el_sur.1.t: "Hacia el Sur!"
+hacia_el_sur.1.d: "Finalmente logramos conquistar el Sur y el Oeste, por fin podremos empezar a poblar estas zonas."
+hacia_el_sur.1.f: "Desde el siglo XVII, los españoles y portugueses intentaron penetrar estas tierras indomables, pero la ferocidad de los nativos siempre predominó, hasta ahora..."
+hacia_el_sur.1.a: "Por fin podemos caminar libremente por estas interminables planicies, bosques y humedales"
+
+
+hacia_el_norte.1.t: "Hacia el Norte!"
+hacia_el_norte.1.d: "Finalmente logramos conquistar el Gran Chaco y Alto Paraguay, por fin podremos empezar a poblar estas zonas"
+hacia_el_norte.1.f: "Desde el siglo XVII, los españoles y portugueses intentaron penetrar estas tierras indomables, pero la ferocidad de los nativos siempre predominó, hasta ahora..."
+hacia_el_norte.1.a:  "Por fin podemos caminar libremente por estas interminables planicies, bosques y humedales"
+
+alto_paraguay.1.t: "Conquista del Alto Paraguay"
+alto_paraguay.1.d: "Finalmente logramos conquistar Alto Paraguay, por fin podremos empezar a poblar estas zona"
+alto_paraguay.1.f: "Desde el siglo XVII, los españoles y portugueses intentaron penetrar estas tierras indomables, pero la ferocidad de los nativos siempre predominó, hasta ahora..."
+alto_paraguay.1.a:  "Por fin podemos caminar libremente por estas interminables planicies, bosques y humedales"
+
+
+malon.1.t: "Malon"
+malon.1.d: "Los mapuches se agrupan en bandas de guerra y atacan nuestros territorios."
+malon.1.f: "Se hace nube la arena caliente tras el galopar, y jinetes cobrizos corriendo por el medanal: ¡Malon!"
+malon.1.a: "¡Manden ya las tropas a nuestra frontera!"
+malon.1.b: "Debemos enviar ayuda a los afiligidos"
+
+mapuche_malon.1.a: "¡Envíen tropas a la frontera!"
+mapuche_malon.1.b: "Fortifiquen los puestos fronterizos."
+mapuche_malon.1.c: "Movilizen una columna completa y aplasten el malón."
+
+mapuche_malon_raid_success_tt: "El malón atraviesa nuestras defensas y devasta la provincia fronteriza."
+mapuche_malon_raid_failed_tt: "El malón es rechazado, y la experiencia fortalece nuestros esfuerzos de colonización."
+
+mapuche_raid_devastation: "Devastación por malones"
+mapuche_raid_devastation_desc: "Recientes incursiones de mapuches han dejado esta frontera en estado de desolación..."
+
+
+
+welsh_colony.1.t: "Llega un barco galés"
+welsh_colony.1.d: "Colonos galesas llegan a Chubut"
+welsh_colony.1.f: "En 1865, 153 galeses arribaron en el barco Mimosa, a la provincia de Chubut. Ellos continuarían fundando la ciudad de Y Wladfa."
+welsh_colony.1.a: "Bienvenidos a la Argentina"
+
+
+campana_desierto: "escaramuzas en el desierto"
+
+mapuche_after.1.t: "Los mapuches ya no serán una amenaza"
+mapuche_after.1.d: "La Confederación Mapuche, antes un pueblo orgulloso y desafiante en nuestra frontera austral, ha llegado a su fin. Sus tierras han sido sometidas, su resistencia quebrada y los malones que azotaban nuestros asentamientos han cesado."
+mapuche_after.1.f: "“El viento que antes llevaba sus gritos de guerra ahora sólo arrastra el polvo sobre la pampas.”"
+mapuche_after.1.a: "Comienza una nueva era."

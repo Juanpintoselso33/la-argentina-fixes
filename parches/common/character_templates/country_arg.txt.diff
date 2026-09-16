@@ -1,0 +1,10 @@
+--- original/common/character_templates/country_arg.txt
++++ corregido/common/character_templates/country_arg.txt
+@@ -1064,5 +1064,5 @@
+ 	ruler = yes
+ 	culture = cu:french
+ 	birth_date = 1825.1.1
+-	home_region = STATE_PATAGONIA
+-}
++	home_region = STATE_RIO_NEGRO
++}

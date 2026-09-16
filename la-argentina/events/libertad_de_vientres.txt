@@ -1,0 +1,62 @@
+﻿namespace = vientres
+
+vientres.1 = { 
+	type = country_event
+	hidden = yes
+
+	trigger = {
+	}
+	
+	immediate = {
+    every_scope_pop = {
+        if = {
+			limit = {
+				is_pop_type = slaves
+				}
+			change_pop_religion = { target = rel:slave value = 0.2 }
+		}
+    }
+    every_scope_pop = {
+        if = {
+			limit = {
+				has_pop_religion = slave
+				}
+			change_poptype = pop_type:laborers
+		}	
+    }
+    every_scope_pop = {
+        if = {
+			limit = {
+				has_pop_religion = slave
+				}
+            change_pop_religion = { target = rel:catholic value = 1.0 }
+		}	
+    }
+    }
+}
+
+vientres.2 = { #completition effect
+	type = country_event
+	placement = ROOT
+
+	title = vientres.2.t
+	desc = vientres.2.d
+	flavor = vientres.2.f
+
+	duration = 1
+
+	event_image = {
+		video = "southamerica_aristocrats"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	option = {
+		name = vientres.2.a
+		default_option = yes
+		remove_modifier = libertad_de_vientres
+		add_modifier = { name = slavery_abolished_modifier }
+	}
+}

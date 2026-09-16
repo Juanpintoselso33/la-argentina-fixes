@@ -1,0 +1,39 @@
+﻿je_vientres = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+   group = je_group_historical_content 
+	is_shown_when_inactive = {
+	}
+
+	possible = {
+        AND = {
+			any_country = {
+				is_in_geographic_region = geographic_region_south_america
+			}
+            has_modifier = libertad_de_vientres
+            NOT = { 
+                has_law = law_type:law_slavery_banned 
+                OR = {
+                    	has_law = law_type:law_legacy_slavery
+			            has_law = law_type:law_slave_trade
+                        has_law = law_type:law_debt_slavery
+                    }
+                }
+        }
+	}
+
+    on_monthly_pulse = {
+        random_events = {
+            100 = vientres.1
+        }
+    }
+
+	complete = {
+		has_law = law_type:law_slavery_banned
+	}
+
+    on_complete = {
+        trigger_event = { id = vientres.2 }
+	}
+
+	weight = 20
+}

@@ -1,0 +1,9 @@
+--- (archivo nuevo)
++++ corregido/localization/english/zz_fix_textos_l_english.yml
+@@ -0,0 +1,6 @@
++l_english:
++ language_chono: "Chono"
++ language_kawesqar: "Kawésqar"
++ language_selknam: "Selk'nam"
++ slave: "Enslaved"
++ random_character: "A Notable Figure"

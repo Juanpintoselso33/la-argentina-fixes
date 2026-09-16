@@ -1,0 +1,38 @@
+--- original/common/country_definitions/00_countries.txt
++++ corregido/common/country_definitions/00_countries.txt
+@@ -2408,7 +2408,7 @@
+ 	tier = principality
+ 
+ 	cultures = { platinean }
+-	capital = STATE_URUGUAY
++	capital = STATE_MONTEVIDEO
+ 	is_named_from_capital = yes
+ }
+ 
+@@ -2558,7 +2558,7 @@
+ 	tier = principality
+ 
+ 	cultures = { patagonian }
+-	capital = STATE_PATAGONIA
++	capital = STATE_RIO_NEGRO
+ }
+ 
+ THL = {
+@@ -2569,7 +2569,7 @@
+ 	tier = principality
+ 
+ 	cultures = { patagonian }
+-	capital = STATE_PATAGONIA
++	capital = STATE_RIO_NEGRO
+ }
+ 
+ SLK = {
+@@ -2580,7 +2580,7 @@
+ 	tier = principality
+ 
+ 	cultures = { patagonian }
+-	capital = STATE_ARAUCANIA
++	capital = STATE_LOS_LAGOS
+ }
+ 
+ TNG = {

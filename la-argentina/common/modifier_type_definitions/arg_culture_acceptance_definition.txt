@@ -1,0 +1,101 @@
+﻿country_afro_platense_cultural_acceptance_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_mapuche_cultural_acceptance_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_puelches_cultural_acceptance_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_kawesqar_cultural_acceptance_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_picunches_cultural_acceptance_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_huilliches_cultural_acceptance_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_yaganes_cultural_acceptance_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_chonos_cultural_acceptance_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_tehuelche_cultural_acceptance_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_selknam_cultural_acceptance_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_ranquel_cultural_acceptance_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_comechingon_cultural_acceptance_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_kolla_cultural_acceptance_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_wichi_cultural_acceptance_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_diaguita_cultural_acceptance_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_huarpe_cultural_acceptance_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_toba_cultural_acceptance_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}

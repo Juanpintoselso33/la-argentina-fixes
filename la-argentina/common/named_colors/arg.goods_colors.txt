@@ -1,0 +1,3 @@
+colors = {
+	yerba_mate = hsv360 { 17 42 26 }
+}

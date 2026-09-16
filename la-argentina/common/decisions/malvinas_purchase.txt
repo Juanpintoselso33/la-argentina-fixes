@@ -1,0 +1,46 @@
+﻿arg_purchase_malvinas = {
+	is_shown = {
+		or = {
+			c:ARG ?= this
+			c:Great_ARG ?= this
+			c:PLT ?= this
+		}
+		is_subject = no
+		exists = c:GBR
+		NOT = {
+			has_variable = malvinas_purchase_var
+		}
+		c:GBR = {
+			owns_entire_state_region = STATE_SOUTH_ATLANTIC_ISLANDS
+			is_subject = no
+		}
+	}
+
+	possible = {
+		in_default = no
+		taking_loans = no
+		c:GBR = {
+			relations:root >= 75
+			is_at_war = no
+			
+		}
+
+		}
+	
+
+	when_taken = {
+		set_variable = {
+			name = malvinas_purchase_var
+			value = yes
+		}
+		trigger_event = {
+			id = malvinas.1
+			days = 0
+			popup = yes
+		}
+	}
+
+	ai_chance = {
+		value = 0	
+	}
+}

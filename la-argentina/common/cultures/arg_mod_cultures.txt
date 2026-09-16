@@ -1,0 +1,2212 @@
+﻿
+REPLACE:argentine={
+	color=rgb{ 179 208 221 }
+	religion = catholic
+	heritage = heritage_latin_american_settler
+	language = language_hispanophone
+	traditions = {}
+    obsessions = { wine meat yerba_mate}
+	male_common_first_names = {
+		Andres Agustin Alejo ArI_stides Alejandro Alberto Anselmo Alvaro
+		Bonifacio Bautista Benjamin_2 Bartolome
+		Carmelo Calizto Celedonio Carlos Cornelio Claudio Constantino
+		Domingo Deoclecio Dardo Dalmacio
+		Eduardo Ezequiel Ergasto Eliseo Emilio Enrique
+		Francisco Felix Fulvio Facundo Fernando Faustino
+		Gregorio Guillermo
+		Horatio HE_ctor Hilario
+		Ignacio
+		Juan JosE_ Julio Jacinto Juan Justo Jorge Jose_Antonio
+		Luis Laureano Lorenzo Lucio
+		Manuel Mariano MelitO_n Marcos Maximo Marcelino
+		Norberto Narcisco Nicolas_2
+		Oseas
+		Pedro Pablo
+		Roberto Roque Rodrigo Rufino Ricardo Rudecindo Rodolfo Rafael
+		Sixto Santiago Salustiano
+		Tertuliano Tiburcio Toribio Tomas TristA_n
+		Vicente 
+		Wenceslao
+	}
+	female_common_first_names = {
+		Antonia Adela Alcira Aurelia
+		Claudia
+		Emilia Elena
+		Felicia
+		Irene
+		Maria Manuela Micaela Mauricia Mercedes
+		NE_lida
+		PlA_cida Paula
+		Ramona
+		Vicenta
+	}
+	common_last_names = {
+		AramburU_ ArA_oz Aldao Almandoz Arroyo Alvarez Anzorena AchA_val Alsina Arias Alvear
+		Bustos Bombal Benegas Bermejo BA_ez Borzani Balarce Barros Bustillo Belgrano
+		Camet Casanovas Cabrera Correas de_la_Cuesta Civit Cano Cruz del_Campillo Cascallares Calvo CazO_n Castrp Casares Cardoso Chaves Cantilo CorvalA_n
+		Diaz de_Dios_Videla Derqui
+		EchagU_e
+		Fragueiro Ferreyra Funes
+		Gonzalez Gutierrez GuiN_azU_ Godoy Guzman Gorostiaga GalA_n
+		Isasmendi de_Irigoyen
+		Larraz Lopez Lencinas Llavallol
+		Merlo Moyano Maza Mallea Marenco Mosca Mitre Monteverde
+		Nazar
+		Ortiz Ortega Ozamis Orfila Olascoaga Obligado Olivera
+		Perez Paz de_la_PeN_a Paunero Planes Palacios
+		Rodriguez ReynafE_ Rojo Romero Rocha
+		Segura Saforcada Sarmiento Saavedra SaldI_as Sierra
+		TorromE_ Torrente Tejedor
+		Uriburu de_Urquiza Udaondo Ugarte
+		Villanueva de_Veyga Videla Victorica Viamonte VE_lez Vedoya
+		ZavalI_a
+	}
+
+	ethnicities = {
+		1 = south_american
+		1 = caucasian
+	}
+	graphics = european
+}
+
+REPLACE:platinean= {
+	color=rgb{ 88 99 133 }
+	religion = catholic
+	heritage = heritage_latin_american_settler
+	language = language_hispanophone
+
+	obsessions = {
+		meat
+	}
+
+	traditions = { }
+	male_common_first_names = {
+		Agustin Antonio Atanasio
+		Baltasar Bartolome Bernardino Bernardo
+		Carlos Cecilio Cirilo Claudio Clemente Candido_2
+		Domingo
+		Emiliano Esteban Eugenio_2 Evaristo
+		Facundo Faustino Feliciano Francisco Fructuoso Felix
+		Gabriel Gaspar Guillermo
+		Hipolito
+		Ignacio
+		JosE_ Juan_Jose Juan_Manuel Juan_Ramon Julio Justo
+		Lorenzo Luis
+		Manuel Marcial
+		Miguel Maximo
+		Nicolas_2
+		Patricio Pedro Prudencio
+		Ramon Roberto Roque
+		Salvador Santiago
+		Torcuato
+		Venancio
+	}
+	female_common_first_names = {
+		Agustina Ana
+		Bernardina
+		Catalina Constancia Carmen
+		Dolores
+		Encarnacion Eva
+		Isidora Isabel
+		Juana
+		Manuela Maria Martina Magdalena
+		Petrona
+		Robustiana Ramona
+		Sara
+		Tomasa
+	}
+	noble_last_names = {
+		de_Alvear de_A_lzaga de_AzcuE_naga
+		de_Basavilbaso
+		Cordero de_Castro_de_Herrero CorvalA_n
+		Esquivel
+		Ferrerari_de_OlazA_bal
+		de_Goyeneche
+		de_Ibarrola
+		de_Lamadrid de_Lezica de_LagraN_a
+		Molina_de_Balaguer
+		de_OtA_lora de_Orma
+		de_Pueyrredon de_la_Plaza Prats_de_Huisi
+		de_la_Quintana de_la_Quintanilla
+		Rodriguez_de_Francia de_Rosas Rivadavia del_Ribero
+		de_Santa_Coloma
+		de_la_Torre
+		de_Urquiza
+		de_Vedoya
+		Warnes
+	}
+	common_last_names = {
+		Aguirre Avellaneda Albizuri
+		Balcarce Bareiro Berro Brown Baez Bramajo
+		Caballero CorvalA_n Cruz Condarco Cordero
+		Derqui Diaz_2
+		Ellauri Escobar Esquivel
+		Flores
+		Gonzalez Gomez
+		Jovellanos Justo Juarez Jonte
+		Latorre Lopez
+		Machain Maza Meza Mitre Monteagudo Matorras Medrano
+		Paz Pedernera Pellegrini Pereira Pinedo Prats
+		Quintana
+		Rivarola Rivera Roca Rodriguez Rojas Rondeau
+		Santos Sarmineto Solano Saenz
+		Tajes
+		Uriburu
+		Viamonte Vidal Villarino Vedoya
+		Warnes
+		Yrigoyen
+		Zapiola
+	}
+	ethnicities = {
+		1 = south_american
+		1 = caucasian
+	}
+	graphics = european
+}
+
+REPLACE:uruguayan={
+	color=rgb{ 213 210 187 }
+	religion = catholic
+	heritage = heritage_latin_american_settler
+	language = language_hispanophone
+	traditions = {}
+   obsessions = { meat yerba_mate}
+	male_common_first_names = {
+		Antonio Atanasio Alfredo Andres Agustin Angel
+		Bernardo Baltasar
+		Carlos Cesar Claudio Conrado
+		Duvimioso
+		Eduardo Eugenio Enrique Eustaquio
+		Fructuoso Francisco Feliciano Florentino Fermin Fernando
+		Gabriel Gervasio
+		Ismael
+		Joaquin Juan JosE_ Jose_Maria Julio Javier
+		Lorenzo
+		Miguel Manuel Maximo Mariano Mauricio Mateo
+		Orlando
+		Pedro Prudencio Pablo
+		Ramon
+		Salvador Santiago
+		Tomas Teodoro
+		Venancio Valentin
+	}
+	female_common_first_names = {
+		Anastasia Amelia Amanda Adela
+		Carolina Clemencia
+		Dorotea
+		Francisca
+		Javiera Juana JoaquI_na Julia
+		Luisa
+		Matilde Maria Manuela
+		Petrona PrA_xedes Paulina
+	}
+	common_last_names = {
+		Agell Aguirre AlbI_n Anaya Acevedo Aubriot
+		Berro Bustamante Borda BaN_os Battle Benzano
+		Cruz Cuestas Campisteguy Chucarro Castellanos Carve Cervantes Castro de_Castro Cortinas Cal
+		DurA_n
+		Ellauri Etchebarne EstradE_ Elzaurdi EstE_vez
+		Flores Fernandez
+		GirO_ Gomensoro Gonzalez Gorlero
+		Herrera
+		Idiarte
+		Lavalleja Lamas Latorre LarraN_aga LaviN_a Larrosa Lara
+		Morales Miranda Munoz
+		Navarro Nunez
+		Obes OrdO_N_ez
+		Pachedo Pereira PlA_ Piriz Pineiro PeN_alva Pedragosa Paiva
+		Rivera Rodriguez Requena Regules Rivas
+		Suarez Santos Soumastre Serrato Soca Sagastume Saez
+		Tajes Terra Torres
+		Urioste
+		Villalba Varela Villegas Vidal Viera Vidal_Silva
+	}
+
+	ethnicities = {
+		1 = south_american
+		1 = caucasian
+	}
+	graphics = european
+}
+
+
+REPLACE:paraguayan={
+	color=rgb{ 140 192 63 }
+	religion = catholic
+	heritage = heritage_latin_american_settler
+	language = language_hispanophone
+	traditions = { }
+	obsessions = { yerba_mate }
+
+	male_common_first_names = {
+		Antonio Adolfo Andres Alberto Abelardo
+		Bautista Bernardino Benigno Bonifacio
+		Carlos Cirilo Candido_2 Cecilio
+		Domingo
+		Emilio Emiliano Eduardo Eusebio Eligio Eladio Euclides
+		Fulgencio Francisco Facundo Felix
+		Gaspar Gabriel Gualberto Gorgonio
+		Higinio HE_ctor Horacio
+		JosE_ Juan Jaun_Bautista Jorge
+		Liberato Luis
+		Manuel Mariano Marcos
+		Narcisco
+		Patricio Pablo Pedro Paulino
+		Roque Rafael
+		Salvador Silvano Santiago
+		Telmo
+	}
+	female_common_first_names={
+		Anastasia Andrea Avelina Ana
+		Bernardina
+		Candelaria Concepcion Cecilia
+		Dolores Deolinda
+		Elvira Elisa EscolA_stica Emilia EstefanI_a Ercilia
+		Felipa
+		Graciela
+		Hilda Hortensia
+		Isabel
+		Josefa
+		Luisa
+		Manuela Melchora
+		Petrona
+		Rosaura
+		Susana
+	}
+	common_last_names = {
+		Alonso Aceval ArgU_ello Alfaro Aquino AlE_n Alvarenga
+		Bareiro BA_ez Bobadilla Burgos Barboza Barrios Bruguez
+		Caballero Carvallo Cervera Campos Chirife CenturiO_n
+		Dominguez DuplA_n Diez Decoud Domecq Diaz Duarte
+		Escobar Escurra Estigarribia Escalada
+		Ferreira Frutos Franco Fernandez 
+		Gill Gonzalez Gaona Gondra Garcia Godoy GimE_nez
+		Insaurralde IrrazA_bal
+		Jovellanos Jara
+		Lopez
+		Montiel MachaI_n Miltos Mirando Morinigo Montero Mendoza Marquez Meza
+		Navero
+		Oviedo
+		PeN_a Paiva ParE_s
+		Rivarola Rojas Riart ResquI_n Robles Ramos
+		Sisa
+		Uriate
+		Velazquez Vera
+	}
+
+	ethnicities = {
+		1 = native_american
+		1 = south_american
+	}
+	graphics = european
+}
+
+
+REPLACE:guarani={
+	color= rgb{ 194 109 46 }
+	religion = animist
+	heritage = heritage_guarani
+	language = language_guarani
+	traditions = { }
+	obsessions = { yerba_mate}
+	male_common_first_names={
+		Aniceto
+		Antonio
+		Bartolome
+		Camilo
+		Carlos
+		Claudio
+		David
+		Emiliano
+		Eugenio_2
+		Felipe
+		Fernando
+		Felix
+		Gregorio
+		Jacinto
+		Jesus
+		JosE_
+		Juan
+		Julio
+		Luis
+		Manuel
+		Marcos
+		Maximo
+		Narciso
+		Pablo
+		Pedro
+		Rodrigo
+		Roque
+		Simon_2
+		Teodoro
+		VI_ctor
+	}
+	female_common_first_names = {
+		Adela
+		Blanca
+		Carola
+		Celsa
+		Eliza
+		Ermelina
+		Hercilia
+		Lindaura
+		Maria
+		Modesta
+		Sara
+		Ubalda
+		Veronica
+	}	
+	noble_last_names = {
+		Anzoategui
+		Campero
+		Santa_Cruz
+		Tiaraju
+		Tumpa
+	}
+	common_last_names={
+		Abjaisu
+		Ayegua
+		Camba
+		Chuaie
+		Correa
+		Cunhagatu
+		Diaz_2
+		Fernandez
+		Galeano
+		Gonzalez
+		Guaracay
+		Guarani
+		Guerrero
+		Gomez
+		Jopara
+		Lopez
+		Mongelos
+		Morla
+		Ortiz
+		Parave
+		Picagua
+		Rodas
+		Riquelme
+		Rivarola
+		Tarayu
+		Torga
+		Velazquez
+		Yaguarete
+		Yrahi
+		Alvarez
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}
+
+
+REPLACE:sulista = {
+	color= hsv{ 0.50 0.40 0.53 }
+	religion = catholic
+	heritage = heritage_latin_american_settler
+	language = language_lusophone
+		traditions = { }
+ obsessions = { meat yerba_mate }
+	male_common_first_names = {
+		ApolinA_rio AparI_cio Artur AntA_o Alceu Antonio_3 AdA_o
+		Claudio_2 Carlos Candido Cipriano
+		Deodoro DulcI_dio 
+		Eduardo Evaristo Ernesto ElesbA_o Eusebio 
+		FidE_ncio Francisco Firmino
+		GaudE_ncio Gumercindo Gaspar GervA_sio Gabriel GuataC_ara 
+		HilA_rio Herculano Henrique Hipolito 
+		Irineu Ildegonso Isidoro
+		JosE_ JoA_o Julio_2 JerO_nimo Joaquim
+		Lucas Libero
+		Manuel Matheus Marcos Martiniano 
+		Ramiro RogE_rio
+		Serafim Severino Salvador
+		Tomas TelE_maco
+		Uladislau
+		Vicente
+		Weceslau
+	}
+	female_common_first_names = {
+		Amalia_2
+		Guilhermina
+		Honorina HermI_nia 
+		Idalina
+		Joaquina 
+		LuI_sa LI_sia LI_sia_Ricardina
+		Maria Mariana Maria_Joaquina Maria_Carolina
+		PropI_cia Paulina
+		Rosa Ricardina
+		Teresa
+	}
+	common_last_names = {
+		de_Almeida dos_Anjos_France de_Araujo_Prates
+		Bampi BarE_a BenvegnU_ Bandeira Borna
+		Canabarro do_Carmo_Cheuiche Canellas do_Couto Clarque de_Castilhos de_Carvalho Carneiro
+		Damasceno Dourado
+		da_Fontoura
+		GonC_alves GuimarA_es GonC_alves_de_Faria
+		Jardim  
+		Laranjeira Loreto_de_Barcellos
+		de_Matos
+		Ortiz de_Oliveira_GuimarA_es
+		Pimenta Pedrosa Pereira Pereira_Fortes Pimental
+		Ribeiro Rodrigues Rossato da_Rosa Ribeiro
+		Saraiva da_Silveira de_Sa__Brito da_Silva_Coutinho da_Silva_Gomes de_Sousa dos_Santos
+	}
+
+	ethnicities = {
+		1 = south_american
+		1 = caucasian
+	}
+	graphics = european
+}
+
+
+REPLACE:afro_caribeno={
+	color= hsv{ 0.33 0.45 0.32 }
+	religion = catholic
+	heritage = heritage_african_diaspora
+	language = language_hispanophone
+		traditions = { }
+	male_common_first_names={
+		Antonio
+		Armando
+		Arsenio
+		Arturo
+		Bartolome
+		Carlos
+		Damaso
+		Enrique
+		Francisco
+		Generoso
+		Guillermo
+		Gumersindo
+		Ignacio
+		Israel
+		Jacinto
+		Jaime
+		Jose_Celso
+		Juan
+		Luciano
+		Mario
+		Maximo
+		Nelson
+		Nicolas_2
+		Orestes
+		Orlando
+		Pedro
+		Pio
+		Ramon
+		Ruben_2
+		Wifredo
+	}
+	female_common_first_names = {
+		Ana
+		Angelamaria
+		Carlota
+		Isabel
+		Josefina
+		Luz
+		Maria
+		Mercedes
+		Milagros
+		Olivia
+		Palmira
+		Paula
+		Trinidad
+		Ulpiana
+		Victoria
+	}	
+	noble_last_names = {
+		Batista
+		Colon
+		de_Gordils
+		Maceo
+		Macias
+		de_Cespedes
+		de_Merino
+		de_Rojas
+		de_la_Rosa
+		de_Ortega
+		de_la_Torre
+	}
+	common_last_names={
+		Albizu
+		Barbosa
+		Barreto
+		Bauza
+		Diaz_2
+		Egues
+		Estupinan
+		Garay
+		Gonzalez
+		Guillen
+		Gutierrez
+		Hurtado
+		Jimenez
+		Jorrin
+		Lam
+		Leyva
+		Lopez
+		Maceo
+		Morel
+		More
+		Peraza
+		Pineiro
+		Pozo
+		Perez
+		Repilado
+		Rodriguez
+		Santamaria
+		Schomburg
+		Valdes
+		Villa
+	}
+	ethnicities = {
+		1 = african
+	}
+	graphics = african
+}
+afro_platense ={
+	color= hsv{ 0.31 0.50 0.35 }
+	religion = catholic
+	heritage = heritage_african_diaspora
+	language = language_hispanophone
+		traditions = {}
+	male_common_first_names={
+		Antonio
+		Armando
+		Arsenio
+		Arturo
+		Bartolome
+		Carlos
+		Damaso
+		Enrique
+		Francisco
+		Generoso
+		Guillermo
+		Gumersindo
+		Ignacio
+		Israel
+		Jacinto
+		Jaime
+		Jose_Celso
+		Juan
+		Luciano
+		Mario
+		Maximo
+		Nelson
+		Nicolas_2
+		Orestes
+		Orlando
+		Pedro
+		Pio
+		Ramon
+		Ruben_2
+		Wifredo
+	}
+	female_common_first_names = {
+		Ana
+		Angelamaria
+		Carlota
+		Isabel
+		Josefina
+		Luz
+		Maria
+		Mercedes
+		Milagros
+		Olivia
+		Palmira
+		Paula
+		Trinidad
+		Ulpiana
+		Victoria
+	}	
+	noble_last_names = {
+		Batista
+		Colon
+		de_Gordils
+		Maceo
+		Macias
+		de_Cespedes
+		de_Merino
+		de_Rojas
+		de_la_Rosa
+		de_Ortega
+		de_la_Torre
+	}
+	common_last_names={
+		Albizu
+		Barbosa
+		Barreto
+		Bauza
+		Diaz_2
+		Egues
+		Estupinan
+		Garay
+		Gonzalez
+		Guillen
+		Gutierrez
+		Hurtado
+		Jimenez
+		Jorrin
+		Lam
+		Leyva
+		Lopez
+		Maceo
+		Morel
+		More
+		Peraza
+		Pineiro
+		Pozo
+		Perez
+		Repilado
+		Rodriguez
+		Santamaria
+		Schomburg
+		Valdes
+		Villa
+	}
+	ethnicities = {
+		1 = african
+	}
+	graphics = african
+}
+
+
+mapuche = {
+	color=rgb{ 202 72 2 }
+	religion = animist
+	heritage = heritage_patagonian
+	language = language_mapudungun
+		traditions = { }
+
+    male_common_first_names={
+		Agustin
+		Antonio
+		Aquiles
+		Arturo
+		Aucan
+		Aurelio
+		Bernardo
+		Carlos
+		Claudio
+		Diego
+		Facundo
+		Fernando
+		Francisco
+		Felix
+		Gerardo
+		Gregorio
+		Hugo
+		Ignacio
+		
+		Juan
+		Luis
+		Manuel
+		Marcos
+		Martin_2
+		Melchor
+		Maximo
+		Pedro
+		Ramon
+		Raul_2
+		Santiago
+		"Victor"
+	}
+	female_common_first_names = {
+		Emilia
+		Janequeo
+		Juana
+		Maria
+		Rosario
+		Ximena
+	}	
+	noble_last_names = {
+		Calfucura
+		Colipi
+		Conoepan
+		Melin
+		Namuncura
+		Paillalef
+		Quilapan
+	}
+	common_last_names={
+		Aliwen
+		Amuylifko
+		Aukan
+		Ayllapan
+		Bravo
+		Chiguay
+		Cumin
+		Curumilla
+		Epulewfu
+		Foyelkay
+		Guaiquil
+		Huichaman
+		Ilwen
+		Kayupi
+		Kumlafken
+		Kvlapi
+		Levinanco
+		Lincoman
+		Marifil
+		Melifilu
+		Millakoyam
+		Millapani
+		Nahuel
+		Paillacar
+		Pillancar
+		Quelin
+		Remultray
+		Unquen
+		Waikimill
+		Yankvleufu
+		Nanku
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}
+puelches = {
+	color=rgb{ 220 42 8 }
+	religion = animist
+	heritage = heritage_patagonian
+	language = language_gununa
+		traditions = { }
+
+    male_common_first_names={
+		Agustin
+		Antonio
+		Aquiles
+		Arturo
+		Aucan
+		Aurelio
+		Bernardo
+		Carlos
+		Claudio
+		Diego
+		Facundo
+		Fernando
+		Francisco
+		Felix
+		Gerardo
+		Gregorio
+		Hugo
+		Ignacio
+		
+		Juan
+		Luis
+		Manuel
+		Marcos
+		Martin_2
+		Melchor
+		Maximo
+		Pedro
+		Ramon
+		Raul_2
+		Santiago
+		"Victor"
+	}
+	female_common_first_names = {
+		Emilia
+		Janequeo
+		Juana
+		Maria
+		Rosario
+		Ximena
+	}	
+	noble_last_names = {
+		Calfucura
+		Colipi
+		Conoepan
+		Melin
+		Namuncura
+		Paillalef
+		Quilapan
+	}
+	common_last_names={
+		Aliwen
+		Amuylifko
+		Aukan
+		Ayllapan
+		Bravo
+		Chiguay
+		Cumin
+		Curumilla
+		Epulewfu
+		Foyelkay
+		Guaiquil
+		Huichaman
+		Ilwen
+		Kayupi
+		Kumlafken
+		Kvlapi
+		Levinanco
+		Lincoman
+		Marifil
+		Melifilu
+		Millakoyam
+		Millapani
+		Nahuel
+		Paillacar
+		Pillancar
+		Quelin
+		Remultray
+		Unquen
+		Waikimill
+		Yankvleufu
+		Nanku
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}
+kawesqar = {
+	color=rgb{ 223 56 56 }
+	religion = animist
+	heritage = heritage_patagonian
+	language = language_kawesqar
+		traditions = { }
+
+    male_common_first_names={
+		Agustin
+		Antonio
+		Aquiles
+		Arturo
+		Aucan
+		Aurelio
+		Bernardo
+		Carlos
+		Claudio
+		Diego
+		Facundo
+		Fernando
+		Francisco
+		Felix
+		Gerardo
+		Gregorio
+		Hugo
+		Ignacio
+		
+		Juan
+		Luis
+		Manuel
+		Marcos
+		Martin_2
+		Melchor
+		Maximo
+		Pedro
+		Ramon
+		Raul_2
+		Santiago
+		"Victor"
+	}
+	female_common_first_names = {
+		Emilia
+		Janequeo
+		Juana
+		Maria
+		Rosario
+		Ximena
+	}	
+	noble_last_names = {
+		Calfucura
+		Colipi
+		Conoepan
+		Melin
+		Namuncura
+		Paillalef
+		Quilapan
+	}
+	common_last_names={
+		Aliwen
+		Amuylifko
+		Aukan
+		Ayllapan
+		Bravo
+		Chiguay
+		Cumin
+		Curumilla
+		Epulewfu
+		Foyelkay
+		Guaiquil
+		Huichaman
+		Ilwen
+		Kayupi
+		Kumlafken
+		Kvlapi
+		Levinanco
+		Lincoman
+		Marifil
+		Melifilu
+		Millakoyam
+		Millapani
+		Nahuel
+		Paillacar
+		Pillancar
+		Quelin
+		Remultray
+		Unquen
+		Waikimill
+		Yankvleufu
+		Nanku
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}
+
+picunches = {
+	color=rgb{ 204 102 0 }
+	religion = animist
+	heritage = heritage_patagonian
+	language = language_picunche
+		traditions = { }
+
+    male_common_first_names={
+		Agustin
+		Antonio
+		Aquiles
+		Arturo
+		Aucan
+		Aurelio
+		Bernardo
+		Carlos
+		Claudio
+		Diego
+		Facundo
+		Fernando
+		Francisco
+		Felix
+		Gerardo
+		Gregorio
+		Hugo
+		Ignacio
+		
+		Juan
+		Luis
+		Manuel
+		Marcos
+		Martin_2
+		Melchor
+		Maximo
+		Pedro
+		Ramon
+		Raul_2
+		Santiago
+		"Victor"
+	}
+	female_common_first_names = {
+		Emilia
+		Janequeo
+		Juana
+		Maria
+		Rosario
+		Ximena
+	}	
+	noble_last_names = {
+		Calfucura
+		Colipi
+		Conoepan
+		Melin
+		Namuncura
+		Paillalef
+		Quilapan
+	}
+	common_last_names={
+		Aliwen
+		Amuylifko
+		Aukan
+		Ayllapan
+		Bravo
+		Chiguay
+		Cumin
+		Curumilla
+		Epulewfu
+		Foyelkay
+		Guaiquil
+		Huichaman
+		Ilwen
+		Kayupi
+		Kumlafken
+		Kvlapi
+		Levinanco
+		Lincoman
+		Marifil
+		Melifilu
+		Millakoyam
+		Millapani
+		Nahuel
+		Paillacar
+		Pillancar
+		Quelin
+		Remultray
+		Unquen
+		Waikimill
+		Yankvleufu
+		Nanku
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}
+huilliches = {
+	color=rgb{ 255 204 255 }
+	religion = animist
+	heritage = heritage_patagonian
+	language = language_chesungun
+		traditions = { }
+	
+
+    male_common_first_names={
+		Agustin
+		Antonio
+		Aquiles
+		Arturo
+		Aucan
+		Aurelio
+		Bernardo
+		Carlos
+		Claudio
+		Diego
+		Facundo
+		Fernando
+		Francisco
+		Felix
+		Gerardo
+		Gregorio
+		Hugo
+		Ignacio
+		
+		Juan
+		Luis
+		Manuel
+		Marcos
+		Martin_2
+		Melchor
+		Maximo
+		Pedro
+		Ramon
+		Raul_2
+		Santiago
+		"Victor"
+	}
+	female_common_first_names = {
+		Emilia
+		Janequeo
+		Juana
+		Maria
+		Rosario
+		Ximena
+	}	
+	noble_last_names = {
+		Calfucura
+		Colipi
+		Conoepan
+		Melin
+		Namuncura
+		Paillalef
+		Quilapan
+	}
+	common_last_names={
+		Aliwen
+		Amuylifko
+		Aukan
+		Ayllapan
+		Bravo
+		Chiguay
+		Cumin
+		Curumilla
+		Epulewfu
+		Foyelkay
+		Guaiquil
+		Huichaman
+		Ilwen
+		Kayupi
+		Kumlafken
+		Kvlapi
+		Levinanco
+		Lincoman
+		Marifil
+		Melifilu
+		Millakoyam
+		Millapani
+		Nahuel
+		Paillacar
+		Pillancar
+		Quelin
+		Remultray
+		Unquen
+		Waikimill
+		Yankvleufu
+		Nanku
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}
+yaganes = {
+	color=rgb{ 255 204 255 }
+	religion = animist
+	heritage = heritage_patagonian
+	language = language_yagan
+		traditions = { }
+	
+    male_common_first_names={
+		Agustin
+		Antonio
+		Aquiles
+		Arturo
+		Aucan
+		Aurelio
+		Bernardo
+		Carlos
+		Claudio
+		Diego
+		Facundo
+		Fernando
+		Francisco
+		Felix
+		Gerardo
+		Gregorio
+		Hugo
+		Ignacio
+		
+		Juan
+		Luis
+		Manuel
+		Marcos
+		Martin_2
+		Melchor
+		Maximo
+		Pedro
+		Ramon
+		Raul_2
+		Santiago
+		"Victor"
+	}
+	female_common_first_names = {
+		Emilia
+		Janequeo
+		Juana
+		Maria
+		Rosario
+		Ximena
+	}	
+	noble_last_names = {
+		Calfucura
+		Colipi
+		Conoepan
+		Melin
+		Namuncura
+		Paillalef
+		Quilapan
+	}
+	common_last_names={
+		Aliwen
+		Amuylifko
+		Aukan
+		Ayllapan
+		Bravo
+		Chiguay
+		Cumin
+		Curumilla
+		Epulewfu
+		Foyelkay
+		Guaiquil
+		Huichaman
+		Ilwen
+		Kayupi
+		Kumlafken
+		Kvlapi
+		Levinanco
+		Lincoman
+		Marifil
+		Melifilu
+		Millakoyam
+		Millapani
+		Nahuel
+		Paillacar
+		Pillancar
+		Quelin
+		Remultray
+		Unquen
+		Waikimill
+		Yankvleufu
+		Nanku
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}
+
+chonos = {
+	color=rgb{ 178 42 228 }
+	religion = animist
+	heritage = heritage_patagonian
+	language = language_chono
+		traditions = { }
+
+    male_common_first_names={
+		Agustin
+		Antonio
+		Aquiles
+		Arturo
+		Aucan
+		Aurelio
+		Bernardo
+		Carlos
+		Claudio
+		Diego
+		Facundo
+		Fernando
+		Francisco
+		Felix
+		Gerardo
+		Gregorio
+		Hugo
+		Ignacio
+		
+		Juan
+		Luis
+		Manuel
+		Marcos
+		Martin_2
+		Melchor
+		Maximo
+		Pedro
+		Ramon
+		Raul_2
+		Santiago
+		"Victor"
+	}
+	female_common_first_names = {
+		Emilia
+		Janequeo
+		Juana
+		Maria
+		Rosario
+		Ximena
+	}	
+	noble_last_names = {
+		Calfucura
+		Colipi
+		Conoepan
+		Melin
+		Namuncura
+		Paillalef
+		Quilapan
+	}
+	common_last_names={
+		Aliwen
+		Amuylifko
+		Aukan
+		Ayllapan
+		Bravo
+		Chiguay
+		Cumin
+		Curumilla
+		Epulewfu
+		Foyelkay
+		Guaiquil
+		Huichaman
+		Ilwen
+		Kayupi
+		Kumlafken
+		Kvlapi
+		Levinanco
+		Lincoman
+		Marifil
+		Melifilu
+		Millakoyam
+		Millapani
+		Nahuel
+		Paillacar
+		Pillancar
+		Quelin
+		Remultray
+		Unquen
+		Waikimill
+		Yankvleufu
+		Nanku
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}
+
+tehuelche = {
+	color=rgb{ 104 238 232 }
+	religion = animist
+	heritage = heritage_patagonian
+	language = language_aonikenk
+		traditions = { }
+	
+    male_common_first_names={
+		Agustin
+		Antonio
+		Aquiles
+		Arturo
+		Aucan
+		Aurelio
+		Bernardo
+		Carlos
+		Claudio
+		Diego
+		Facundo
+		Fernando
+		Francisco
+		Felix
+		Gerardo
+		Gregorio
+		Hugo
+		Ignacio
+		
+		Juan
+		Luis
+		Manuel
+		Marcos
+		Martin_2
+		Melchor
+		Maximo
+		Pedro
+		Ramon
+		Raul_2
+		Santiago
+		"Victor"
+	}
+	female_common_first_names = {
+		Emilia
+		Janequeo
+		Juana
+		Maria
+		Rosario
+		Ximena
+	}	
+	noble_last_names = {
+		Calfucura
+		Colipi
+		Conoepan
+		Melin
+		Namuncura
+		Paillalef
+		Quilapan
+	}
+	common_last_names={
+		Aliwen
+		Amuylifko
+		Aukan
+		Ayllapan
+		Bravo
+		Chiguay
+		Cumin
+		Curumilla
+		Epulewfu
+		Foyelkay
+		Guaiquil
+		Huichaman
+		Ilwen
+		Kayupi
+		Kumlafken
+		Kvlapi
+		Levinanco
+		Lincoman
+		Marifil
+		Melifilu
+		Millakoyam
+		Millapani
+		Nahuel
+		Paillacar
+		Pillancar
+		Quelin
+		Remultray
+		Unquen
+		Waikimill
+		Yankvleufu
+		Nanku
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}
+
+selknam = {
+	color=rgb{ 156 48 128 }
+	religion = animist
+	heritage = heritage_patagonian
+	language = language_selknam
+		traditions = { }
+
+    male_common_first_names={
+		Agustin
+		Antonio
+		Aquiles
+		Arturo
+		Aucan
+		Aurelio
+		Bernardo
+		Carlos
+		Claudio
+		Diego
+		Facundo
+		Fernando
+		Francisco
+		Felix
+		Gerardo
+		Gregorio
+		Hugo
+		Ignacio
+		
+		Juan
+		Luis
+		Manuel
+		Marcos
+		Martin_2
+		Melchor
+		Maximo
+		Pedro
+		Ramon
+		Raul_2
+		Santiago
+		"Victor"
+	}
+	female_common_first_names = {
+		Emilia
+		Janequeo
+		Juana
+		Maria
+		Rosario
+		Ximena
+	}	
+	noble_last_names = {
+		Calfucura
+		Colipi
+		Conoepan
+		Melin
+		Namuncura
+		Paillalef
+		Quilapan
+	}
+	common_last_names={
+		Aliwen
+		Amuylifko
+		Aukan
+		Ayllapan
+		Bravo
+		Chiguay
+		Cumin
+		Curumilla
+		Epulewfu
+		Foyelkay
+		Guaiquil
+		Huichaman
+		Ilwen
+		Kayupi
+		Kumlafken
+		Kvlapi
+		Levinanco
+		Lincoman
+		Marifil
+		Melifilu
+		Millakoyam
+		Millapani
+		Nahuel
+		Paillacar
+		Pillancar
+		Quelin
+		Remultray
+		Unquen
+		Waikimill
+		Yankvleufu
+		Nanku
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}
+ranquel = {
+	color=rgb{ 202 72 2 }
+	religion = animist
+	heritage = heritage_pampas
+	language = language_ranquel
+		traditions = { }
+
+    male_common_first_names={
+		Agustin
+		Antonio
+		Aquiles
+		Arturo
+		Aucan
+		Aurelio
+		Bernardo
+		Carlos
+		Claudio
+		Diego
+		Facundo
+		Fernando
+		Francisco
+		Felix
+		Gerardo
+		Gregorio
+		Hugo
+		Ignacio
+		
+		Juan
+		Luis
+		Manuel
+		Marcos
+		Martin_2
+		Melchor
+		Maximo
+		Pedro
+		Ramon
+		Raul_2
+		Santiago
+		"Victor"
+	}
+	female_common_first_names = {
+		Emilia
+		Janequeo
+		Juana
+		Maria
+		Rosario
+		Ximena
+	}	
+	noble_last_names = {
+		Calfucura
+		Colipi
+		Conoepan
+		Melin
+		Namuncura
+		Paillalef
+		Quilapan
+	}
+	common_last_names={
+		Aliwen
+		Amuylifko
+		Aukan
+		Ayllapan
+		Bravo
+		Chiguay
+		Cumin
+		Curumilla
+		Epulewfu
+		Foyelkay
+		Guaiquil
+		Huichaman
+		Ilwen
+		Kayupi
+		Kumlafken
+		Kvlapi
+		Levinanco
+		Lincoman
+		Marifil
+		Melifilu
+		Millakoyam
+		Millapani
+		Nahuel
+		Paillacar
+		Pillancar
+		Quelin
+		Remultray
+		Unquen
+		Waikimill
+		Yankvleufu
+		Nanku
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}
+
+comechingon = {
+	color=rgb{ 66 66 66 }
+	religion = animist
+	heritage = heritage_pampas
+	language = language_comechingon
+		traditions = { }
+
+    male_common_first_names={
+		Agustin
+		Antonio
+		Aquiles
+		Arturo
+		Aucan
+		Aurelio
+		Bernardo
+		Carlos
+		Claudio
+		Diego
+		Facundo
+		Fernando
+		Francisco
+		Felix
+		Gerardo
+		Gregorio
+		Hugo
+		Ignacio
+		
+		Juan
+		Luis
+		Manuel
+		Marcos
+		Martin_2
+		Melchor
+		Maximo
+		Pedro
+		Ramon
+		Raul_2
+		Santiago
+		"Victor"
+	}
+	female_common_first_names = {
+		Emilia
+		Janequeo
+		Juana
+		Maria
+		Rosario
+		Ximena
+	}	
+	noble_last_names = {
+		Calfucura
+		Colipi
+		Conoepan
+		Melin
+		Namuncura
+		Paillalef
+		Quilapan
+	}
+	common_last_names={
+		Aliwen
+		Amuylifko
+		Aukan
+		Ayllapan
+		Bravo
+		Chiguay
+		Cumin
+		Curumilla
+		Epulewfu
+		Foyelkay
+		Guaiquil
+		Huichaman
+		Ilwen
+		Kayupi
+		Kumlafken
+		Kvlapi
+		Levinanco
+		Lincoman
+		Marifil
+		Melifilu
+		Millakoyam
+		Millapani
+		Nahuel
+		Paillacar
+		Pillancar
+		Quelin
+		Remultray
+		Unquen
+		Waikimill
+		Yankvleufu
+		Nanku
+	}
+	ethnicities = {
+		1 = native_american
+		2 = caucasian
+	}
+	graphics = decentralised_americas
+}
+
+
+kolla = {
+	color=rgb{ 255 255 0 }
+	religion = animist
+	heritage = heritage_andean
+	language = language_aymaran
+		traditions = { }
+
+    male_common_first_names={
+		Agustin
+		Antonio
+		Aquiles
+		Arturo
+		Aucan
+		Aurelio
+		Bernardo
+		Carlos
+		Claudio
+		Diego
+		Facundo
+		Fernando
+		Francisco
+		Felix
+		Gerardo
+		Gregorio
+		Hugo
+		Ignacio
+		
+		Juan
+		Luis
+		Manuel
+		Marcos
+		Martin_2
+		Melchor
+		Maximo
+		Pedro
+		Ramon
+		Raul_2
+		Santiago
+		"Victor"
+	}
+	female_common_first_names = {
+		Emilia
+		Janequeo
+		Juana
+		Maria
+		Rosario
+		Ximena
+	}	
+	noble_last_names = {
+		Calfucura
+		Colipi
+		Conoepan
+		Melin
+		Namuncura
+		Paillalef
+		Quilapan
+	}
+	common_last_names={
+		Aliwen
+		Amuylifko
+		Aukan
+		Ayllapan
+		Bravo
+		Chiguay
+		Cumin
+		Curumilla
+		Epulewfu
+		Foyelkay
+		Guaiquil
+		Huichaman
+		Ilwen
+		Kayupi
+		Kumlafken
+		Kvlapi
+		Levinanco
+		Lincoman
+		Marifil
+		Melifilu
+		Millakoyam
+		Millapani
+		Nahuel
+		Paillacar
+		Pillancar
+		Quelin
+		Remultray
+		Unquen
+		Waikimill
+		Yankvleufu
+		Nanku
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}
+
+wichi = {
+	color=rgb{ 76 20 153 }
+	religion = animist
+	heritage = heritage_andean
+	language = language_mataco
+		traditions = { }
+
+    male_common_first_names={
+		Agustin
+		Antonio
+		Aquiles
+		Arturo
+		Aucan
+		Aurelio
+		Bernardo
+		Carlos
+		Claudio
+		Diego
+		Facundo
+		Fernando
+		Francisco
+		Felix
+		Gerardo
+		Gregorio
+		Hugo
+		Ignacio
+		
+		Juan
+		Luis
+		Manuel
+		Marcos
+		Martin_2
+		Melchor
+		Maximo
+		Pedro
+		Ramon
+		Raul_2
+		Santiago
+		"Victor"
+	}
+	female_common_first_names = {
+		Emilia
+		Janequeo
+		Juana
+		Maria
+		Rosario
+		Ximena
+	}	
+	noble_last_names = {
+		Calfucura
+		Colipi
+		Conoepan
+		Melin
+		Namuncura
+		Paillalef
+		Quilapan
+	}
+	common_last_names={
+		Aliwen
+		Amuylifko
+		Aukan
+		Ayllapan
+		Bravo
+		Chiguay
+		Cumin
+		Curumilla
+		Epulewfu
+		Foyelkay
+		Guaiquil
+		Huichaman
+		Ilwen
+		Kayupi
+		Kumlafken
+		Kvlapi
+		Levinanco
+		Lincoman
+		Marifil
+		Melifilu
+		Millakoyam
+		Millapani
+		Nahuel
+		Paillacar
+		Pillancar
+		Quelin
+		Remultray
+		Unquen
+		Waikimill
+		Yankvleufu
+		Nanku
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}
+
+
+diaguita = {
+	color=rgb{ 255 153 51 }
+	religion = animist
+	heritage = heritage_andean
+	language = language_kakan
+		traditions = { }
+
+    male_common_first_names={
+		Agustin
+		Antonio
+		Aquiles
+		Arturo
+		Aucan
+		Aurelio
+		Bernardo
+		Carlos
+		Claudio
+		Diego
+		Facundo
+		Fernando
+		Francisco
+		Felix
+		Gerardo
+		Gregorio
+		Hugo
+		Ignacio
+		
+		Juan
+		Luis
+		Manuel
+		Marcos
+		Martin_2
+		Melchor
+		Maximo
+		Pedro
+		Ramon
+		Raul_2
+		Santiago
+		"Victor"
+	}
+	female_common_first_names = {
+		Emilia
+		Janequeo
+		Juana
+		Maria
+		Rosario
+		Ximena
+	}	
+	noble_last_names = {
+		Calfucura
+		Colipi
+		Conoepan
+		Melin
+		Namuncura
+		Paillalef
+		Quilapan
+	}
+	common_last_names={
+		Aliwen
+		Amuylifko
+		Aukan
+		Ayllapan
+		Bravo
+		Chiguay
+		Cumin
+		Curumilla
+		Epulewfu
+		Foyelkay
+		Guaiquil
+		Huichaman
+		Ilwen
+		Kayupi
+		Kumlafken
+		Kvlapi
+		Levinanco
+		Lincoman
+		Marifil
+		Melifilu
+		Millakoyam
+		Millapani
+		Nahuel
+		Paillacar
+		Pillancar
+		Quelin
+		Remultray
+		Unquen
+		Waikimill
+		Yankvleufu
+		Nanku
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}
+
+huarpe = {
+	color=rgb{ 51 25 0 }
+	religion = animist
+	heritage = heritage_pampas
+	language = language_millcayac
+		traditions = { }
+
+    male_common_first_names={
+		Agustin
+		Antonio
+		Aquiles
+		Arturo
+		Aucan
+		Aurelio
+		Bernardo
+		Carlos
+		Claudio
+		Diego
+		Facundo
+		Fernando
+		Francisco
+		Felix
+		Gerardo
+		Gregorio
+		Hugo
+		Ignacio
+		
+		Juan
+		Luis
+		Manuel
+		Marcos
+		Martin_2
+		Melchor
+		Maximo
+		Pedro
+		Ramon
+		Raul_2
+		Santiago
+		"Victor"
+	}
+	female_common_first_names = {
+		Emilia
+		Janequeo
+		Juana
+		Maria
+		Rosario
+		Ximena
+	}	
+	noble_last_names = {
+		Calfucura
+		Colipi
+		Conoepan
+		Melin
+		Namuncura
+		Paillalef
+		Quilapan
+	}
+	common_last_names={
+		Aliwen
+		Amuylifko
+		Aukan
+		Ayllapan
+		Bravo
+		Chiguay
+		Cumin
+		Curumilla
+		Epulewfu
+		Foyelkay
+		Guaiquil
+		Huichaman
+		Ilwen
+		Kayupi
+		Kumlafken
+		Kvlapi
+		Levinanco
+		Lincoman
+		Marifil
+		Melifilu
+		Millakoyam
+		Millapani
+		Nahuel
+		Paillacar
+		Pillancar
+		Quelin
+		Remultray
+		Unquen
+		Waikimill
+		Yankvleufu
+		Nanku
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}
+
+toba = {
+	color=rgb{ 0 51 102 }
+	religion = animist
+	heritage = heritage_pampas
+	language = language_qom
+		traditions = { }
+
+    male_common_first_names={
+		Agustin
+		Antonio
+		Aquiles
+		Arturo
+		Aucan
+		Aurelio
+		Bernardo
+		Carlos
+		Claudio
+		Diego
+		Facundo
+		Fernando
+		Francisco
+		Felix
+		Gerardo
+		Gregorio
+		Hugo
+		Ignacio
+		
+		Juan
+		Luis
+		Manuel
+		Marcos
+		Martin_2
+		Melchor
+		Maximo
+		Pedro
+		Ramon
+		Raul_2
+		Santiago
+		"Victor"
+	}
+	female_common_first_names = {
+		Emilia
+		Janequeo
+		Juana
+		Maria
+		Rosario
+		Ximena
+	}	
+	noble_last_names = {
+		Calfucura
+		Colipi
+		Conoepan
+		Melin
+		Namuncura
+		Paillalef
+		Quilapan
+	}
+	common_last_names={
+		Aliwen
+		Amuylifko
+		Aukan
+		Ayllapan
+		Bravo
+		Chiguay
+		Cumin
+		Curumilla
+		Epulewfu
+		Foyelkay
+		Guaiquil
+		Huichaman
+		Ilwen
+		Kayupi
+		Kumlafken
+		Kvlapi
+		Levinanco
+		Lincoman
+		Marifil
+		Melifilu
+		Millakoyam
+		Millapani
+		Nahuel
+		Paillacar
+		Pillancar
+		Quelin
+		Remultray
+		Unquen
+		Waikimill
+		Yankvleufu
+		Nanku
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = decentralised_americas
+}

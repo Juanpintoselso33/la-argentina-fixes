@@ -1,0 +1,101 @@
+﻿country_fervor_target_afro_platense_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_fervor_target_mapuche_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_fervor_target_puelches_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_fervor_target_kawesqar_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_fervor_target_picunches_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_fervor_target_huilliches_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_fervor_target_yaganes_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_fervor_target_chonos_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_fervor_target_tehuelche_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_fervor_target_selknam_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_fervor_target_ranquel_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_fervor_target_comechingon_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_fervor_target_kolla_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_fervor_target_wichi_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_fervor_target_diaguita_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_fervor_target_huarpe_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}
+
+country_fervor_target_toba_add = {
+    decimals = 1
+    color = good
+    game_data = { ai_value = 0 }
+}

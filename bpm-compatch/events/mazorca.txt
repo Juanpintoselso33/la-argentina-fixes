@@ -1,0 +1,159 @@
+namespace = mazorca
+
+# on action every month
+mazorca.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = mazorca.1.t
+	desc = mazorca.1.d
+	flavor = mazorca.1.f
+
+	cooldown = { years = 999 }
+	duration = 3
+
+	event_image = {
+		video = "southamerica_aristocrats2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = {
+		c:ARG ?= this # important because c:ARG can not exist
+
+		OR = {
+			has_law = law_type:law_autocracy
+			has_law = law_type:law_military_junta
+			has_law = law_type:law_oligarchy
+		}
+		has_law = law_type:law_local_police #Mazorca
+
+		OR = {
+			country_turmoil >= 0.13
+			radical_population_fraction >= 0.15
+			has_revolution = yes
+		}
+	}
+
+
+	immediate = {
+	}
+
+	option = {
+		name = mazorca.1.a
+		default_option = yes
+
+		add_modifier = {
+			name = divisa_punzo_modifier
+		}
+	}
+	}
+
+
+
+# on action every month
+mazorca.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = mazorca.2.t
+	desc = mazorca.2.d
+	flavor = mazorca.2.f
+
+	duration = 3
+	cooldown = { years = 999 }
+
+
+	event_image = {
+		video = "southamerica_violent_police"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = {
+		#JE
+	}
+
+
+	immediate = {
+
+
+	}
+
+	option = {
+		name = mazorca.2.a
+		default_option = yes
+
+		add_modifier = {
+			name = mazorca_modifier
+			days = normal_modifier_time
+		}
+
+
+	}
+}
+
+# on action every month
+mazorca.3 = {
+	type = country_event
+	placement = ROOT
+
+	title = mazorca.3.t
+	desc = mazorca.3.d
+	flavor = mazorca.3.f
+
+	duration = 3
+	cooldown = { years = 999 }
+
+
+	event_image = {
+		video = "southamerica_violent_police"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = {
+		c:ARG ?= this # important because c:ARG can not exist
+
+		NOT = {
+			has_modifier = mazorca_modifier
+		}
+
+		OR = {
+			has_law = law_type:law_autocracy
+			has_law = law_type:law_military_junta
+			has_law = law_type:law_oligarchy
+		}
+		has_law = law_type:law_local_police #Mazorca
+
+		OR = {
+			country_turmoil > 0.18
+			radical_population_fraction > 0.18
+			has_revolution = yes
+		}
+	}
+
+
+	immediate = {
+
+
+	}
+
+	option = {
+		name = mazorca.3.a
+		default_option = yes
+
+		add_modifier = {
+			name = mazorca_modifier
+			days = normal_modifier_time
+		}
+
+
+	}
+}
+
+
+

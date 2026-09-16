@@ -1,0 +1,103 @@
+﻿
+REPLACE:owned_andes_region_states = {
+	owns_entire_state_region = STATE_LA_PAZ
+	owns_entire_state_region = STATE_PASTAZA
+	owns_entire_state_region = STATE_JUJUY
+	owns_entire_state_region = STATE_ECUADOR
+	owns_entire_state_region = STATE_SANTA_CRUZ
+	owns_entire_state_region = STATE_AREQUIPA
+	owns_entire_state_region = STATE_CAJAMARCA
+	owns_entire_state_region = STATE_ICA
+	owns_entire_state_region = STATE_LIMA
+	owns_entire_state_region = STATE_POTOSI
+	owns_entire_state_region = STATE_TARAPACA
+	owns_entire_state_region = STATE_ANTOFAGASTA
+	owns_entire_state_region = STATE_ACRE
+}
+
+REPLACE:owned_gran_colombia_region_states = {
+	owns_entire_state_region = STATE_BOLIVAR
+	owns_entire_state_region = STATE_CUNDINAMARCA
+	owns_entire_state_region = STATE_CAUCA
+	owns_entire_state_region = STATE_GUAVIARE
+	owns_entire_state_region = STATE_ZULIA
+	owns_entire_state_region = STATE_ANTIOQUIA
+	owns_entire_state_region = STATE_MIRANDA
+	owns_entire_state_region = STATE_GUAYANA
+}
+
+REPLACE:owned_la_plata_region_states = {
+	owns_entire_state_region = STATE_SANTIAGO
+    owns_entire_state_region = STATE_MAGALLANES
+	owns_entire_state_region = STATE_AYSEN
+	owns_entire_state_region = STATE_LOS_LAGOS
+	owns_entire_state_region = STATE_LOS_RIOS
+	owns_entire_state_region = STATE_SOUTH_ATLANTIC_ISLANDS
+	owns_entire_state_region = STATE_BAJO_PARAGUAY
+	owns_entire_state_region = STATE_ALTO_PARAGUAY
+	owns_entire_state_region = STATE_BUENOS_AIRES
+	owns_entire_state_region = STATE_CHACO
+	owns_entire_state_region = STATE_TUCUMAN
+	owns_entire_state_region = STATE_CORRIENTES
+	owns_entire_state_region = STATE_SANTA_FE
+	owns_entire_state_region = STATE_RIO_NEGRO
+	owns_entire_state_region = STATE_CHUBUT
+	owns_entire_state_region = STATE_TIERRA_DEL_FUEGO
+	owns_entire_state_region = STATE_FORMOSA_ARG
+	owns_entire_state_region = STATE_SANTIAGO_DEL_ESTERO
+	owns_entire_state_region = STATE_CATAMARCA
+	owns_entire_state_region = STATE_LA_RIOJA
+	owns_entire_state_region = STATE_SAN_JUAN
+	owns_entire_state_region = STATE_SALTA
+	owns_entire_state_region = STATE_LA_PAMPA
+	owns_entire_state_region = STATE_SAN_LUIS
+	owns_entire_state_region = STATE_ENTRE_RIOS
+	owns_entire_state_region = STATE_MISIONES
+	owns_entire_state_region = STATE_SANTA_FE
+	owns_entire_state_region = STATE_NEUQUEN
+	owns_entire_state_region = STATE_SANTA_CRUZ_ARG
+	owns_entire_state_region = STATE_CORDOBA
+	
+}
+
+REPLACE:in_volcanic_zone = {
+	OR = {
+		region = sr:region_indonesia
+		is_in_geographic_region = geographic_region_japan_old
+		region = sr:region_central_america
+		region = sr:region_east_africa
+		state_region = s:STATE_SANTIAGO
+		state_region = s:STATE_LOS_RIOS
+		state_region = s:STATE_AYSEN
+		state_region = s:STATE_ANTOFAGASTA
+		state_region = s:STATE_TARAPACA
+		state_region = s:STATE_POTOSI
+		state_region = s:STATE_AREQUIPA
+		state_region = s:STATE_ICA
+		state_region = s:STATE_LIMA
+		state_region = s:STATE_CAJAMARCA
+		state_region = s:STATE_ECUADOR
+		state_region = s:STATE_PASTAZA
+		state_region = s:STATE_CAUCA
+		state_region = s:STATE_GUAVIARE
+		state_region = s:STATE_CUNDINAMARCA
+		state_region = s:STATE_ANTIOQUIA
+		state_region = s:STATE_PANAMA
+		state_region = s:STATE_OAXACA
+		state_region = s:STATE_GUERRERO
+		state_region = s:STATE_JALISCO
+		state_region = s:STATE_SINALOA
+		state_region = s:STATE_SONORA
+		state_region = s:STATE_BAJA_CALIFORNIA
+		state_region = s:STATE_CALIFORNIA
+		state_region = s:STATE_OREGON
+		state_region = s:STATE_WASHINGTON
+		state_region = s:STATE_BRITISH_COLUMBIA
+		state_region = s:STATE_ALASKA
+		state_region = s:STATE_SICILY
+		state_region = s:STATE_CAMPANIA
+		state_region = s:STATE_ICELAND
+		state_region = s:STATE_HAWAIIAN_ISLANDS
+		state_region = s:STATE_NORTH_ISLAND
+	}
+}

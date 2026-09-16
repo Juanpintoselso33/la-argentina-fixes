@@ -1,0 +1,11 @@
+﻿yerba_mate = {
+	texture = "gfx/interface/icons/arg_goods_icons/Yerba_Mate.dds"
+	cost = 50
+	category = luxury
+	
+	obsession_chance = 1.8
+	prestige_factor = 5
+	convoy_cost_multiplier = 0.75
+	traded_quantity = 5 # 250
+}
+

@@ -1,0 +1,29 @@
+je_rosas = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	group = je_group_historical_content
+
+	SHOULD_BE_PINNED_BY_DEFAULT_UNINVOLVED_OR_CONTEXT = yes
+
+	timeout = 6209
+
+
+	scripted_button = mazorca_button
+
+	fail = {
+		NOT = {
+			OR = {
+			has_law = law_type:law_autocracy
+			has_law = law_type:law_military_junta
+			has_law = law_type:law_oligarchy
+		}
+		}
+	}
+
+	on_fail = {
+		trigger_event = { id = supreme_power.2 }
+	}
+
+
+	weight = 20
+}
+

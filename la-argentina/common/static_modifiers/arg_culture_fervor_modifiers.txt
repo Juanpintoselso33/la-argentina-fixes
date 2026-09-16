@@ -1,0 +1,152 @@
+﻿afro_platense_fervor_target_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_fervor_target_afro_platense_add = 1
+}
+afro_platense_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_fervor_target_afro_platense_add = 1
+}
+
+mapuche_fervor_target_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_fervor_target_mapuche_add = 1
+}
+mapuche_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_fervor_target_mapuche_add = 1
+}
+
+puelches_fervor_target_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_fervor_target_puelches_add = 1
+}
+puelches_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_fervor_target_puelches_add = 1
+}
+
+kawesqar_fervor_target_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_fervor_target_kawesqar_add = 1
+}
+kawesqar_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_fervor_target_kawesqar_add = 1
+}
+
+picunches_fervor_target_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_fervor_target_picunches_add = 1
+}
+picunches_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_fervor_target_picunches_add = 1
+}
+
+huilliches_fervor_target_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_fervor_target_huilliches_add = 1
+}
+huilliches_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_fervor_target_huilliches_add = 1
+}
+
+yaganes_fervor_target_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_fervor_target_yaganes_add = 1
+}
+yaganes_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_fervor_target_yaganes_add = 1
+}
+
+chonos_fervor_target_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_fervor_target_chonos_add = 1
+}
+chonos_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_fervor_target_chonos_add = 1
+}
+
+tehuelche_fervor_target_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_fervor_target_tehuelche_add = 1
+}
+tehuelche_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_fervor_target_tehuelche_add = 1
+}
+
+selknam_fervor_target_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_fervor_target_selknam_add = 1
+}
+selknam_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_fervor_target_selknam_add = 1
+}
+
+ranquel_fervor_target_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_fervor_target_ranquel_add = 1
+}
+ranquel_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_fervor_target_ranquel_add = 1
+}
+
+comechingon_fervor_target_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_fervor_target_comechingon_add = 1
+}
+comechingon_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_fervor_target_comechingon_add = 1
+}
+
+kolla_fervor_target_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_fervor_target_kolla_add = 1
+}
+kolla_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_fervor_target_kolla_add = 1
+}
+
+wichi_fervor_target_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_fervor_target_wichi_add = 1
+}
+wichi_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_fervor_target_wichi_add = 1
+}
+
+diaguita_fervor_target_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_fervor_target_diaguita_add = 1
+}
+diaguita_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_fervor_target_diaguita_add = 1
+}
+
+huarpe_fervor_target_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_fervor_target_huarpe_add = 1
+}
+huarpe_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_fervor_target_huarpe_add = 1
+}
+
+toba_fervor_target_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_fervor_target_toba_add = 1
+}
+toba_fervor_target_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	country_fervor_target_toba_add = 1
+}

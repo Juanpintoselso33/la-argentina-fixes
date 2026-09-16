@@ -1,0 +1,36 @@
+﻿je_alto_paraguay = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	
+   group = je_group_historical_content
+   
+	is_shown_when_inactive = {
+		exists = c:GNI
+		any_neighbouring_state = {
+			owner = c:GNI
+		}
+		AND = {
+			c:PRG?= this
+		}
+	}
+
+	possible = {
+		OR = {
+			has_law = law_type:law_colonial_exploitation
+			has_law = law_type:law_colonial_resettlement
+			has_law = law_type:law_frontier_colonization
+		}
+	}
+
+	complete = {
+		OR = {
+			owns_entire_state_region = STATE_ALTO_PARAGUAY
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = alto_paraguay.1 }
+	}
+
+
+	weight = 20
+}

@@ -1,0 +1,362 @@
+--- original/common/customizable_localization/99_ru_custom_loc.txt
++++ corregido/common/customizable_localization/99_ru_custom_loc.txt
+@@ -14487,7 +14487,7 @@
+ 			exists = c:WLS
+ 			this = c:WLS
+ 			c:WLS = {
+-				capital = { state_region = s:STATE_PATAGONIA }
++				capital = { state_region = s:STATE_RIO_NEGRO }
+ 			}
+ 			}
+ 		}
+@@ -17662,7 +17662,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			any_scope_state = { state_region = s:STATE_URUGUAY }
++			any_scope_state = { state_region = s:STATE_MONTEVIDEO }
+ 		}
+ 		localization_key = RU_SL_RP_STATE_URUGUAY
+ 	}
+@@ -18346,7 +18346,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			any_scope_state = { state_region = s:STATE_PATAGONIA }
++			any_scope_state = { state_region = s:STATE_RIO_NEGRO }
+ 		}
+ 		localization_key = RU_SL_RP_STATE_PATAGONIA
+ 	}
+@@ -18424,7 +18424,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			any_scope_state = { state_region = s:STATE_ARAUCANIA }
++			any_scope_state = { state_region = s:STATE_LOS_LAGOS }
+ 		}
+ 		localization_key = RU_SL_RP_STATE_ARAUCANIA
+ 	}
+@@ -21722,7 +21722,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_URUGUAY }
++			this = { state_region = s:STATE_MONTEVIDEO }
+ 		}
+ 		localization_key = RU_SL_RP_STATE_URUGUAY
+ 	}
+@@ -22406,7 +22406,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_PATAGONIA }
++			this = { state_region = s:STATE_RIO_NEGRO }
+ 		}
+ 		localization_key = RU_SL_RP_STATE_PATAGONIA
+ 	}
+@@ -22484,7 +22484,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_ARAUCANIA }
++			this = { state_region = s:STATE_LOS_LAGOS }
+ 		}
+ 		localization_key = RU_SL_RP_STATE_ARAUCANIA
+ 	}
+@@ -25782,7 +25782,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			any_scope_state = { state_region = s:STATE_URUGUAY }
++			any_scope_state = { state_region = s:STATE_MONTEVIDEO }
+ 		}
+ 		localization_key = RU_SL_DP_STATE_URUGUAY
+ 	}
+@@ -26466,7 +26466,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			any_scope_state = { state_region = s:STATE_PATAGONIA }
++			any_scope_state = { state_region = s:STATE_RIO_NEGRO }
+ 		}
+ 		localization_key = RU_SL_DP_STATE_PATAGONIA
+ 	}
+@@ -26544,7 +26544,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			any_scope_state = { state_region = s:STATE_ARAUCANIA }
++			any_scope_state = { state_region = s:STATE_LOS_LAGOS }
+ 		}
+ 		localization_key = RU_SL_DP_STATE_ARAUCANIA
+ 	}
+@@ -29842,7 +29842,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_URUGUAY }
++			this = { state_region = s:STATE_MONTEVIDEO }
+ 		}
+ 		localization_key = RU_SL_DP_STATE_URUGUAY
+ 	}
+@@ -30526,7 +30526,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_PATAGONIA }
++			this = { state_region = s:STATE_RIO_NEGRO }
+ 		}
+ 		localization_key = RU_SL_DP_STATE_PATAGONIA
+ 	}
+@@ -30604,7 +30604,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_ARAUCANIA }
++			this = { state_region = s:STATE_LOS_LAGOS }
+ 		}
+ 		localization_key = RU_SL_DP_STATE_ARAUCANIA
+ 	}
+@@ -33902,7 +33902,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			any_scope_state = { state_region = s:STATE_URUGUAY }
++			any_scope_state = { state_region = s:STATE_MONTEVIDEO }
+ 		}
+ 		localization_key = RU_SL_VP_STATE_URUGUAY
+ 	}
+@@ -34586,7 +34586,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			any_scope_state = { state_region = s:STATE_PATAGONIA }
++			any_scope_state = { state_region = s:STATE_RIO_NEGRO }
+ 		}
+ 		localization_key = RU_SL_VP_STATE_PATAGONIA
+ 	}
+@@ -34664,7 +34664,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			any_scope_state = { state_region = s:STATE_ARAUCANIA }
++			any_scope_state = { state_region = s:STATE_LOS_LAGOS }
+ 		}
+ 		localization_key = RU_SL_VP_STATE_ARAUCANIA
+ 	}
+@@ -37962,7 +37962,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_URUGUAY }
++			this = { state_region = s:STATE_MONTEVIDEO }
+ 		}
+ 		localization_key = RU_SL_VP_STATE_URUGUAY
+ 	}
+@@ -38646,7 +38646,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_PATAGONIA }
++			this = { state_region = s:STATE_RIO_NEGRO }
+ 		}
+ 		localization_key = RU_SL_VP_STATE_PATAGONIA
+ 	}
+@@ -38724,7 +38724,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_ARAUCANIA }
++			this = { state_region = s:STATE_LOS_LAGOS }
+ 		}
+ 		localization_key = RU_SL_VP_STATE_ARAUCANIA
+ 	}
+@@ -42022,7 +42022,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			any_scope_state = { state_region = s:STATE_URUGUAY }
++			any_scope_state = { state_region = s:STATE_MONTEVIDEO }
+ 		}
+ 		localization_key = RU_SL_TP_STATE_URUGUAY
+ 	}
+@@ -42706,7 +42706,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			any_scope_state = { state_region = s:STATE_PATAGONIA }
++			any_scope_state = { state_region = s:STATE_RIO_NEGRO }
+ 		}
+ 		localization_key = RU_SL_TP_STATE_PATAGONIA
+ 	}
+@@ -42784,7 +42784,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			any_scope_state = { state_region = s:STATE_ARAUCANIA }
++			any_scope_state = { state_region = s:STATE_LOS_LAGOS }
+ 		}
+ 		localization_key = RU_SL_TP_STATE_ARAUCANIA
+ 	}
+@@ -46082,7 +46082,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_URUGUAY }
++			this = { state_region = s:STATE_MONTEVIDEO }
+ 		}
+ 		localization_key = RU_SL_TP_STATE_URUGUAY
+ 	}
+@@ -46766,7 +46766,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_PATAGONIA }
++			this = { state_region = s:STATE_RIO_NEGRO }
+ 		}
+ 		localization_key = RU_SL_TP_STATE_PATAGONIA
+ 	}
+@@ -46844,7 +46844,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_ARAUCANIA }
++			this = { state_region = s:STATE_LOS_LAGOS }
+ 		}
+ 		localization_key = RU_SL_TP_STATE_ARAUCANIA
+ 	}
+@@ -50142,7 +50142,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			any_scope_state = { state_region = s:STATE_URUGUAY }
++			any_scope_state = { state_region = s:STATE_MONTEVIDEO }
+ 		}
+ 		localization_key = RU_SL_PP_STATE_URUGUAY
+ 	}
+@@ -50826,7 +50826,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			any_scope_state = { state_region = s:STATE_PATAGONIA }
++			any_scope_state = { state_region = s:STATE_RIO_NEGRO }
+ 		}
+ 		localization_key = RU_SL_PP_STATE_PATAGONIA
+ 	}
+@@ -50904,7 +50904,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			any_scope_state = { state_region = s:STATE_ARAUCANIA }
++			any_scope_state = { state_region = s:STATE_LOS_LAGOS }
+ 		}
+ 		localization_key = RU_SL_PP_STATE_ARAUCANIA
+ 	}
+@@ -54202,7 +54202,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_URUGUAY }
++			this = { state_region = s:STATE_MONTEVIDEO }
+ 		}
+ 		localization_key = RU_SL_PP_STATE_URUGUAY
+ 	}
+@@ -54886,7 +54886,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_PATAGONIA }
++			this = { state_region = s:STATE_RIO_NEGRO }
+ 		}
+ 		localization_key = RU_SL_PP_STATE_PATAGONIA
+ 	}
+@@ -54964,7 +54964,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_ARAUCANIA }
++			this = { state_region = s:STATE_LOS_LAGOS }
+ 		}
+ 		localization_key = RU_SL_PP_STATE_ARAUCANIA
+ 	}
+@@ -58263,7 +58263,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			any_scope_state = { state_region = s:STATE_URUGUAY }
++			any_scope_state = { state_region = s:STATE_MONTEVIDEO }
+ 		}
+ 		localization_key = RU_SL_ADJ_STATE_URUGUAY
+ 	}
+@@ -58947,7 +58947,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			any_scope_state = { state_region = s:STATE_PATAGONIA }
++			any_scope_state = { state_region = s:STATE_RIO_NEGRO }
+ 		}
+ 		localization_key = RU_SL_ADJ_STATE_PATAGONIA
+ 	}
+@@ -59025,7 +59025,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			any_scope_state = { state_region = s:STATE_ARAUCANIA }
++			any_scope_state = { state_region = s:STATE_LOS_LAGOS }
+ 		}
+ 		localization_key = RU_SL_ADJ_STATE_ARAUCANIA
+ 	}
+@@ -62323,7 +62323,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_URUGUAY }
++			this = { state_region = s:STATE_MONTEVIDEO }
+ 		}
+ 		localization_key = RU_SL_ADJ_STATE_URUGUAY
+ 	}
+@@ -63007,7 +63007,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_PATAGONIA }
++			this = { state_region = s:STATE_RIO_NEGRO }
+ 		}
+ 		localization_key = RU_SL_ADJ_STATE_PATAGONIA
+ 	}
+@@ -63085,7 +63085,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_ARAUCANIA }
++			this = { state_region = s:STATE_LOS_LAGOS }
+ 		}
+ 		localization_key = RU_SL_ADJ_STATE_ARAUCANIA
+ 	}
+@@ -66371,7 +66371,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_URUGUAY }
++			this = { state_region = s:STATE_MONTEVIDEO }
+ 		}
+ 		localization_key = RU_SL_END_STATE_URUGUAY
+ 	}
+@@ -67049,7 +67049,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_PATAGONIA }
++			this = { state_region = s:STATE_RIO_NEGRO }
+ 		}
+ 		localization_key = RU_SL_END_STATE_PATAGONIA
+ 	}
+@@ -67127,7 +67127,7 @@
+ 	}
+ 	text = {
+ 		trigger = {
+-			this = { state_region = s:STATE_ARAUCANIA }
++			this = { state_region = s:STATE_LOS_LAGOS }
+ 		}
+ 		localization_key = RU_SL_END_STATE_ARAUCANIA
+ 	}

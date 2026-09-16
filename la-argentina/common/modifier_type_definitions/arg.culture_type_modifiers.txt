@@ -1,0 +1,146 @@
+﻿state_slave_standard_of_living_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+state_afro_platense_standard_of_living_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+state_mapuche_standard_of_living_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+
+state_kawesqar_standard_of_living_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+
+state_huilliches_standard_of_living_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+
+state_yaganes_standard_of_living_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+
+state_chonos_standard_of_living_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+
+state_tehuelche_standard_of_living_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+
+state_picunches_standard_of_living_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+state_selknam_standard_of_living_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+state_ranquel_standard_of_living_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+state_comechingon_standard_of_living_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+state_kolla_standard_of_living_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+state_wichi_standard_of_living_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+state_diaguita_standard_of_living_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+state_huarpe_standard_of_living_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+state_toba_standard_of_living_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}
+
+state_puelches_standard_of_living_add={
+    decimals=1
+    color=good
+    game_data={
+        ai_value=0
+    }
+}

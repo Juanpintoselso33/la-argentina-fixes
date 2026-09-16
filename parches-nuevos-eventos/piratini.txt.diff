@@ -1,0 +1,163 @@
+--- (archivo nuevo)
++++ corregido/events/piratini.txt
+@@ -0,0 +1,160 @@
++namespace = piratini
++
++# on action every month
++piratini.1 = {
++	type = country_event
++	placement = ROOT
++
++	title = piratini.1.t
++	desc = piratini.1.d
++	flavor = piratini.1.f
++
++	cooldown = { years = 999 }
++	duration = 1
++
++	event_image = {
++		video = "southamerica_aristocrats"
++	}
++
++	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
++	icon = "gfx/interface/icons/event_icons/event_map.dds"
++
++	trigger = {
++		c:ARG ?= this # important because c:ARG can not exist
++		c:PNI ?= {
++			is_at_war = yes
++		}
++	}
++
++	immediate = {
++	}
++
++	option = {
++		name = piratini.1.a
++		default_option = yes
++		custom_tooltip = clandestine_support_tip
++		ai_chance = {
++			value = 6
++		}
++
++		add_modifier = {
++			name = clandestine_support1
++			days = short_modifier_time
++		}
++
++		hidden_effect = {
++			c:PNI = {
++				add_modifier = {
++					name = clandestine_support2
++					days = short_modifier_time
++				}
++			}
++		}
++
++
++		set_variable = {
++			name = piratini_happened
++		}
++	}
++
++	option = {
++		name = piratini.1.b
++		ai_chance = {
++			value = 4
++		}
++	}
++	}
++
++# on action every month
++piratini.2 = {
++	type = country_event
++	placement = ROOT
++
++	title = piratini.2.t
++	desc = piratini.2.d
++	flavor = piratini.2.f
++
++	duration = 3
++	cooldown = { years = 999 }
++
++
++	event_image = {
++		video = "southamerica_aristocrats"
++	}
++
++	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
++	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
++
++	trigger = {
++		c:ARG ?= this # important because c:ARG can not exist
++
++		exists = c:PNI
++			c:PNI ?= {
++			is_at_war = no
++		}
++
++		has_variable = piratini_happened
++
++	}
++
++	immediate = {
++		remove_modifier = clandestine_support1
++	}
++
++	option = {
++		name = piratini.2.a
++		default_option = yes
++
++
++		add_modifier = {
++			name = plata_control
++			days = long_modifier_time
++		}
++
++
++		c:PNI = {
++			set_owes_obligation_to = {
++				country = root
++				setting = yes
++			}
++		}
++
++		c:BRZ = {
++			add_modifier = {
++				name = fragmented_empire
++				days = long_modifier_time
++			}
++		}
++	}
++}
++
++
++piratini.3 = {
++	type = country_event
++	placement = ROOT
++	hidden = yes
++
++
++	cooldown = { years = 999 }
++
++
++
++	trigger = {
++		c:ARG ?= this # important because c:ARG can not exist
++
++
++		c:BRZ = {
++			country_or_subject_owns_entire_state_region = STATE_RIO_GRANDE_DO_SUL
++		}
++
++
++	}
++
++	immediate = {
++		remove_modifier = clandestine_support1
++	}
++
++
++}
++
++

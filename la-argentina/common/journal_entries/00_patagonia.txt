@@ -1,0 +1,54 @@
+﻿je_patagonia = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+group = je_group_historical_content
+
+	is_shown_when_inactive = {
+		exists = c:PAT
+		any_neighbouring_state = {
+			owner = c:PAT
+		}
+		OR = {
+			country_has_primary_culture = cu:south_andean
+			country_has_primary_culture = cu:platinean
+		}
+	}
+
+		scripted_button = patagonia_button
+		
+		possible = {
+		NOT = { has_law = law_type:law_no_colonial_affairs }
+	}
+	
+
+	complete = {
+		OR = {
+			AND = {
+				owns_entire_state_region = STATE_MAGALLANES
+				owns_entire_state_region = STATE_AYSEN
+				owns_entire_state_region = STATE_LOS_LAGOS
+			}
+			AND = {
+				owns_entire_state_region = STATE_LA_PAMPA
+				owns_entire_state_region = STATE_NEUQUEN
+				owns_entire_state_region = STATE_RIO_NEGRO
+				owns_entire_state_region = STATE_CHUBUT
+				owns_entire_state_region = STATE_SANTA_CRUZ_ARG
+				owns_entire_state_region = STATE_TIERRA_DEL_FUEGO
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = patagonia.1 }
+	}
+
+	on_monthly_pulse = {
+		random_events = {
+			85 = 0
+			10 = patagonia.2
+			5 = bp1_patagonia.1
+		}
+	}
+
+	weight = 20
+}

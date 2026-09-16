@@ -1,0 +1,62 @@
+﻿l_english:
+
+
+## expansionism
+chaco_settlement: "Chaco Settlement"
+chac_settlemet_desc: "The Impenetrable Chaco is ours to settle"
+ 
+formosa_settlement: "Formosa Settlement"
+formosa_settlement_desc: "The Impenetrable Chaco is ours to settle"
+
+alto_paraguay_settlement: "Alto Paraguay Settlement"
+alto_paraguay_settlement_desc: "The Impenetrable Chaco is ours to settle"
+
+tarija_question_settled: "The Tarija Question"
+tarija_question_settled_desc: "We have beaten back the migthy Bolivia, now the world knows our strenght"
+
+tarija_question_settled2: "The Tarija Question"
+tarija_question_settled2_desc: "We have beaten back the migthy Bolivia, now the world knows our strenght"
+
+settle_the_north: "Settle the north"
+settle_the_north_desc: "We have taken back the north, now we must use it"
+
+islas_malvinas: "Islas Malvinas"
+
+malvinas_arg_big_money: "Cost of the Malvinas Islands"
+
+malvinas_gbr_big_money: "Falkland islands sale money"
+
+campana_desierto: "border skirmishes"
+
+####static_modifers
+
+
+##meat
+goods_output_meat_mult_desc: "A bonus or penalty for the production of $meat$."
+building_throughput_meat_mult_mult: "$meat$ goods multiplier"
+
+
+##alcohol
+vineyard_plantation_output_add: "$wine$ Goods Output."
+vineyard_plantation_output_add_desc: "A bonus or penalty for the production of $wine$"
+goods_output_licor_mult: "$licor$ Goods Output"
+goods_output_licor_mult_desc: "A bonus or penalty for the production of $licor$."
+ 
+
+##clothes
+building_throughput_cloth_mult_mult: "$fabric$ goods multiplier"
+goods_output_luxury_clothes_mult: "$luxury_clothes$ Goods Output"
+goods_output_luxury_clothes_mult_desc: "A bonus or penalty for the production of "$luxury_clothes$"
+
+
+##Yerba Mate
+building_yerba_mate_plantation_throughput_add: "$yerba_mate$ Goods Output"
+building_yerba_mate_plantation_throughput_add_desc:  "$yerba_mate$ Goods Output"
+building_output_yerba_mate_mult_desc: "A bonus or penalty for the production of $yerba_mate$."
+building_output_yerba_mate_mult: "$yerba_mate$ Goods Output"
+
+goods_output_yerba_mate_add: "$yerba_mate$ Goods Output"
+goods_output_yerba_mate_add_desc: "A bonus or penalty for the production of $yerba_mate$."
+goods_output_yerba_mate_mult: "$yerba_mate$ Goods Output"
+goods_output_yerba_mate_mult_desc: "A bonus or penalty for the production of $yerba_mate$."
+

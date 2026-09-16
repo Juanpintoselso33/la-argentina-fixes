@@ -1,0 +1,79 @@
+﻿je_hacia_el_sur = {
+	icon = "gfx/interface/icons/event_icons/events_military.dds"
+	
+   group = je_group_historical_content
+   
+	is_shown_when_inactive = {
+		exists = c:GNI
+		any_neighbouring_state = {
+			owner = c:GNI
+		}
+		AND = {
+			c:PRG?= this
+			owns_entire_state_region = STATE_ALTO_PARAGUAY
+		}
+	}
+
+	possible = {
+		OR = {
+			has_law = law_type:law_colonial_exploitation
+			has_law = law_type:law_colonial_resettlement
+			has_law = law_type:law_frontier_colonization
+		}
+	}
+
+	complete = {
+		OR = {
+			owns_entire_state_region = STATE_FORMOSA_ARG
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = hacia_el_sur.1 }
+	}
+	
+
+	weight = 20
+}
+
+je_hacia_el_norte = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	
+   group = je_group_historical_content
+   
+	is_shown_when_inactive = {
+		exists = c:GNI
+		any_neighbouring_state = {
+			owner = c:GNI
+		}
+		AND = {
+			OR = {
+				c:Great_ARG ?= this
+				c:ARG ?= this
+				c:PLT ?= this
+			}
+		owns_entire_state_region = STATE_FORMOSA_ARG
+
+		}
+	}
+
+	possible = {
+		OR = {
+			has_law = law_type:law_colonial_exploitation
+			has_law = law_type:law_colonial_resettlement
+			has_law = law_type:law_frontier_colonization
+		}
+	}
+
+	complete = {
+		OR = {
+			owns_entire_state_region = STATE_ALTO_PARAGUAY
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = hacia_el_norte.1 }
+	}
+
+	weight = 20
+}

@@ -1,0 +1,18 @@
+--- (archivo nuevo)
++++ corregido/common/on_actions/zz_fix_caciquismo.txt
+@@ -0,0 +1,15 @@
++# la Argentina reescribe common/history/countries/arg - argentina.txt con una copia anterior a
++# Colossus of the South, y ahí se pierde initialise_caciquismo_effect. Sin eso Argentina nunca
++# recibe caciquismo_var, que es lo que habilita el clientelismo electoral y el fraude de la expansión.
++on_game_started = {
++	effect = {
++		c:ARG ?= {
++			if = {
++				limit = {
++					NOT = { has_variable = caciquismo_var }
++				}
++				initialise_caciquismo_effect = yes
++			}
++		}
++	}
++}

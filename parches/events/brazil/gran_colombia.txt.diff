@@ -1,0 +1,61 @@
+--- original/events/brazil/gran_colombia.txt
++++ corregido/events/brazil/gran_colombia.txt
+@@ -655,9 +655,18 @@
+ 				s:STATE_LOS_RIOS = {
+ 					is_homeland = cu:south_andean
+ 				}
+-				s:STATE_ARAUCANIA = {
++				s:STATE_LOS_LAGOS = {
+ 					is_homeland = cu:south_andean
+-				}
++}
++				s:STATE_AYSEN = {
++					is_homeland = cu:south_andean
++}
++				s:STATE_MAGALLANES = {
++					is_homeland = cu:south_andean
++}
++				s:STATE_TIERRA_DEL_FUEGO = {
++					is_homeland = cu:south_andean
++}
+ 			}
+ 		}
+ 		add_primary_culture = cu:south_andean
+@@ -701,13 +710,22 @@
+ 			limit = {
+ 				NOT = {
+ 					any_scope_state = {
+-						state_region = s:STATE_ARAUCANIA
+-					}
+-				}
+-			}
+-			s:STATE_ARAUCANIA = {
++						state_region = s:STATE_LOS_LAGOS
++					}
++				}
++			}
++			s:STATE_LOS_LAGOS = {
+ 				add_claim = ROOT
+-			}
++}
++			s:STATE_AYSEN = {
++				add_claim = ROOT
++}
++			s:STATE_MAGALLANES = {
++				add_claim = ROOT
++}
++			s:STATE_TIERRA_DEL_FUEGO = {
++				add_claim = ROOT
++}
+ 		}
+ 		add_radicals = {
+ 			value = medium_radicals
+@@ -721,7 +739,7 @@
+ 							this = s:STATE_ANTOFAGASTA
+ 							this = s:STATE_SANTIAGO
+ 							this = s:STATE_LOS_RIOS
+-							this = s:STATE_ARAUCANIA
++							this = s:STATE_LOS_LAGOS
+ 						}
+ 					}
+ 				}

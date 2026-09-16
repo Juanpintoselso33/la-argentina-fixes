@@ -1,0 +1,407 @@
+--- original/common/character_templates/country_uru.txt
++++ corregido/common/character_templates/country_uru.txt
+@@ -12,7 +12,7 @@
+ 	dna = dna_manuel_oribe
+ 	interest_group = ig_landowners
+ 	ideology = ideology_moderate
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		imperious
+ 	}
+@@ -32,7 +32,7 @@
+ 	is_general = yes
+ 	interest_group = ig_intelligentsia
+ 	ideology = ideology_market_liberal
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		charismatic
+ 		celebrity_commander
+@@ -52,7 +52,7 @@
+ 	is_general = yes
+ 	interest_group = ig_armed_forces
+ 	ideology = ideology_authoritarian
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		reckless
+ 		ambitious
+@@ -71,7 +71,7 @@
+ 	ig_leader = yes
+ 	interest_group = ig_petty_bourgeoisie
+ 	ideology = ideology_abolitionist
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		honorable
+ 		expert_political_operator
+@@ -105,7 +105,7 @@
+ 	culture = primary_culture
+ 	birth_date = 1795.7.30
+ 	interest_group = ig_landowners
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		basic_offensive_planner
+ 		reserved
+@@ -126,7 +126,7 @@
+ 	interest_group = ig_petty_bourgeoisie
+ 	ideology = ideology_market_liberal
+ 	birth_date = 1806.8.9 # Guesswork
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		experienced_political_operator
+ 	}
+@@ -137,7 +137,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
+@@ -164,7 +164,7 @@
+ 	interest_group = ig_intelligentsia
+ 	ideology = ideology_moderate
+ 	birth_date = 1817.11.10
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		literary
+ 		innovative
+@@ -176,7 +176,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
+@@ -203,7 +203,7 @@
+ 	interest_group = ig_landowners
+ 	ideology = ideology_pacifist
+ 	birth_date = 1803.4.28
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		master_bureaucrat
+ 		reckless # Launched a scuffed uprising
+@@ -215,7 +215,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
+@@ -242,7 +242,7 @@
+ 	interest_group = ig_intelligentsia
+ 	ideology = ideology_positivist
+ 	birth_date = 1845.3.19
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		erudite
+ 		persistent # He was literally me
+@@ -254,7 +254,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
+@@ -281,7 +281,7 @@
+ 	interest_group = ig_armed_forces
+ 	ideology = ideology_protectionist
+ 	birth_date = 1844.8.19
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		ambitious
+ 		imperious
+@@ -293,7 +293,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
+@@ -320,7 +320,7 @@
+ 	interest_group = ig_devout
+ 	ideology = ideology_reformer
+ 	birth_date = 1833.7.28
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		pious
+ 		tactful
+@@ -332,7 +332,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
+@@ -372,7 +372,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
+@@ -399,7 +399,7 @@
+ 	interest_group = ig_intelligentsia
+ 	ideology = ideology_social_democrat
+ 	birth_date = 1856.5.21
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		expert_political_operator
+ 		innovative
+@@ -412,7 +412,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
+@@ -439,7 +439,7 @@
+ 	interest_group = ig_petty_bourgeoisie
+ 	ideology = ideology_fascist
+ 	birth_date = 1873.8.1
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		demagogue
+ 		experienced_political_operator
+@@ -452,7 +452,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
+@@ -479,7 +479,7 @@
+ 	interest_group = ig_trade_unions
+ 	ideology = ideology_social_democrat
+ 	birth_date = 1880.3.30
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		brave
+ 		persistent # Rejected the 21 Conditions
+@@ -491,7 +491,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
+@@ -518,7 +518,7 @@
+ 	interest_group = ig_petty_bourgeoisie
+ 	ideology = ideology_republican_leader
+ 	birth_date = 1879.9.21
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		direct
+ 		basic_political_operator
+@@ -530,7 +530,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
+@@ -559,7 +559,7 @@
+ 	ideology = ideology_moderate
+ 	culture = primary_culture
+ 	religion = rel:catholic
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		persistent
+ 	}
+@@ -570,7 +570,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
+@@ -595,7 +595,7 @@
+ 	ideology = ideology_moderate
+ 	culture = primary_culture
+ 	religion = rel:catholic
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		pious
+ 		experienced_offensive_planner
+@@ -607,7 +607,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
+@@ -644,7 +644,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
+@@ -669,7 +669,7 @@
+ 	ideology = ideology_moderate
+ 	culture = primary_culture
+ 	religion = rel:catholic
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		persistent
+ 		popular_commander
+@@ -681,7 +681,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
+@@ -706,7 +706,7 @@
+ 	ideology = ideology_moderate
+ 	culture = primary_culture
+ 	religion = rel:catholic
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		innovative
+ 		honorable
+@@ -718,7 +718,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
+@@ -743,7 +743,7 @@
+ 	ideology = ideology_moderate
+ 	culture = primary_culture
+ 	religion = rel:catholic
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		arrogant
+ 		experienced_offensive_planner
+@@ -755,7 +755,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
+@@ -780,7 +780,7 @@
+ 	ideology = ideology_liberal_leader
+ 	culture = primary_culture
+ 	religion = rel:catholic
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		basic_political_operator
+ 		ambitious
+@@ -792,7 +792,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
+@@ -819,7 +819,7 @@
+ 	ideology = ideology_moderate
+ 	culture = primary_culture
+ 	religion = rel:catholic
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		explorer
+ 		honorable
+@@ -832,7 +832,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
+@@ -859,7 +859,7 @@
+ 	interest_group = ig_landowners
+ 	ideology = ideology_liberal_leader
+ 	birth_date = 1822.9.3 # Guesswork
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		persistent
+ 		honorable
+@@ -871,7 +871,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
+@@ -898,7 +898,7 @@
+ 	interest_group = ig_intelligentsia
+ 	ideology = ideology_feminist
+ 	birth_date = 1875.10.25 # Guesswork
+-	home_region = STATE_URUGUAY
++	home_region = STATE_MONTEVIDEO
+ 	traits = {
+ 		literary
+ 		experienced_diplomat
+@@ -911,7 +911,7 @@
+ 				AND = {
+ 					c:PLT ?= THIS
+ 					any_scope_state = {
+-						state_region = s:STATE_URUGUAY
++						state_region = s:STATE_MONTEVIDEO
+ 					}
+ 				}
+ 			}
