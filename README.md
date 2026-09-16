@@ -3,8 +3,8 @@
 Arreglos para el mod [la Argentina](https://steamcommunity.com/sharedfiles/filedetails/?id=2982907360)
 de Victoria 3, verificados contra el juego **1.13.11 (Matcha)** con todos los DLC.
 
-El repo trae el mod entero con los arreglos ya aplicados, los parches sueltos por si preferís
-revisarlos uno por uno, y un compatch aparte para quien además use Better Politics Mod.
+El repo trae el mod entero con los arreglos ya aplicados y los parches sueltos, por si preferís
+revisarlos uno por uno.
 
 ## Resultado medido
 
@@ -90,42 +90,17 @@ Sin traducción inglesa: los rasgos de idioma `language_chono`, `language_kawesq
 `language_selknam`, la religión `slave` y la journal entry `random_character`. Se ven como claves
 crudas en pantalla.
 
-## Arreglos para "Argentina nuevos eventos"
+## El mod de eventos va aparte
 
-Están aparte, en `nuevos-eventos-fixes/`, porque son de
-[ese mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3750562635).
-
-- **`events/customs_laws.txt`**: dentro de `every_state` usa `owner = this`, y ahí `this` es el
-  estado, no el país. Compara país con estado y genera **1.942 errores en tres meses de juego**.
-  Va `owner = root`.
-- **`events/piratini.txt`**: usa `c:PNI = { exists = yes ... }`, pero si Piratini no existe esa
-  referencia ya falla. Va `exists = c:PNI` y después `c:PNI ?= { ... }`.
-- **`common/laws/historical_economic_system.txt`**: el modificador está escrito
-  `ountry_production_tech_research_speed_mult`, sin la `c`. No existe, así que Agrarianismo y
-  Economía Extractiva no aplican ese efecto.
-- **`common/laws/historical_slavery.txt`**: usa `building_group_bg_light_industry_throughput_mult`,
-  y el nombre válido termina en `_add`. Trata de Esclavos y Esclavitud Heredada pierden ese efecto.
-
-## Compatch con Better Politics Mod
-
-En `bpm-compatch/`. Con BPM, Argentina arranca con **Military Junta** en vez de **Autocracy**, y
-todos los eventos de Argentina nuevos eventos piden `law_autocracy`. Resultado: **la cadena
-completa de Rosas nunca dispara**, ni la Mazorca, ni los bloqueos, ni los salones, ni los
-saladeros, ni los eventos de Piratini.
-
-El compatch amplía esas nueve condiciones a `law_autocracy`, `law_military_junta` y
-`law_oligarchy`. **Verificado en partida**: con BPM y el compatch, en julio de 1838 la journal
-entry de la era de Rosas está activa y el compatch no agrega ni un error propio al log.
-
-Además, con BPM conviene cargar **Argentina nuevos eventos antes que BPM**: el mod redefine nueve
-leyes que BPM también redefine (agrarianismo, latifundios, arrendatarios, trata y esclavitud
-heredada), y si carga después le pisa las versiones de BPM.
+Los arreglos de [Argentina nuevos eventos](https://steamcommunity.com/sharedfiles/filedetails/?id=3750562635)
+y el compatch con Better Politics Mod están en su propio repo:
+[argentina-nuevos-eventos-fixes](https://github.com/Juanpintoselso33/argentina-nuevos-eventos-fixes).
 
 ## Cómo usarlo
 
 - **Para el mod completo ya corregido:** copiá `la-argentina/` sobre el mod.
-- **Para revisar cambio por cambio:** están en `parches/` y `parches-nuevos-eventos/`, en formato
-  diff unificado contra el original.
+- **Para revisar cambio por cambio:** están en `parches/`, en formato diff unificado contra el
+  original.
 - **Para usarlo como mod local:** poné `la-argentina/` en
   `Documents/Paradox Interactive/Victoria 3/mod/` con su `.mod` apuntando a esa carpeta.
 
